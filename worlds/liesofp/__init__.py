@@ -87,11 +87,9 @@ class LiesOfPWorld(World):
         elif self.options.early_krat_central_station == "early_local":
             self.multiworld.local_early_items[self.player][KEY_ID_TO_NAME[KCS_ENTRANCE_KEY]] = 1
 
-    def set_rules(self) -> None:
-        Rules.set_rules(self.multiworld, self, self.player, self.options)
-
         if self.options.early_weapon_assemble == "early_global":
             self.multiworld.early_items[self.player][FUNC_ID_TO_NAME[FUNC_EAT]] = 1
         elif self.options.early_weapon_assemble == "early_local":
             self.multiworld.local_early_items[self.player][FUNC_ID_TO_NAME[FUNC_EAT]] = 1
+
 
