@@ -2,7 +2,8 @@ from typing import ClassVar, Dict, Mapping, Any
 
 from BaseClasses import Tutorial, ItemClassification as ItemClass, Item
 from worlds.AutoWorld import World, WebWorld
-from .ItemLists.Keys import KEY_ID_TO_NAME, KCS_Enterance_Key
+from .ItemLists.Functionals import FUNC_ID_TO_NAME, FUNC_EAT
+from .ItemLists.Keys import KEY_ID_TO_NAME, KCS_ENTRANCE_KEY
 from .ItemLists.Useables import ALL_ERGO, All_THROW, All_CONSUME, ERGO_ID_TO_NAME, THROW_ID_TO_NAME, CONSUME_ID_TO_NAME
 
 from .Options import LiesOfPOptions
@@ -82,6 +83,15 @@ class LiesOfPWorld(World):
         Rules.set_rules(self.multiworld, self, self.player, self.options)
 
         if self.options.early_krat_central_station == "early_global":
-            self.multiworld.early_items[self.player][KEY_ID_TO_NAME[KCS_Enterance_Key]] = 1
+            self.multiworld.early_items[self.player][KEY_ID_TO_NAME[KCS_ENTRANCE_KEY]] = 1
         elif self.options.early_krat_central_station == "early_local":
-            self.multiworld.local_early_items[self.player][KEY_ID_TO_NAME[KCS_Enterance_Key]] = 1
+            self.multiworld.local_early_items[self.player][KEY_ID_TO_NAME[KCS_ENTRANCE_KEY]] = 1
+
+    def set_rules(self) -> None:
+        Rules.set_rules(self.multiworld, self, self.player, self.options)
+
+        if self.options.early_weapon_assemble == "early_global":
+            self.multiworld.early_items[self.player][FUNC_ID_TO_NAME[FUNC_EAT]] = 1
+        elif self.options.early_weapon_assemble == "early_local":
+            self.multiworld.local_early_items[self.player][FUNC_ID_TO_NAME[FUNC_EAT]] = 1
+

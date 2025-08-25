@@ -14,6 +14,7 @@ OUTFIT_WHITE_LADY = 413
 OUTFIT_WORKSHOP = 414
 OUTFIT_MISCHIEVOUS = 415
 OUTFIT_SIGNATURE = 416
+OUTFIT_TREASURE = 434
 
 # outfits
 OUTFIT_ID_TO_NAME = {
@@ -32,7 +33,8 @@ OUTFIT_ID_TO_NAME = {
     OUTFIT_WHITE_LADY: "White Lady's Hunting Clothes",
     OUTFIT_WORKSHOP: "Workshop Master's Workwear",
     OUTFIT_MISCHIEVOUS: "Mischievous Puppet's Clothes",
-    OUTFIT_SIGNATURE: "The Great Venigni's Signature Coat"
+    OUTFIT_SIGNATURE: "The Great Venigni's Signature Coat",
+    OUTFIT_TREASURE: "Treasure Hunter's Hunting Apparel"
 }
 ALL_OUTFITS = list(OUTFIT_ID_TO_NAME.keys())
 

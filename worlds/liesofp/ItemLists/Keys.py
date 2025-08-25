@@ -1,4 +1,4 @@
-KCS_Enterance_Key = 1
+KCS_ENTRANCE_KEY = 1
 KCH_KEY = 2
 KCH_COURTYARD_KEY = 3
 RAIL_KEY = 4
@@ -14,7 +14,7 @@ PASSAGE_KEY = 13
 ROBBER_KEY = 14
 
 KEY_ID_TO_NAME = {
-    KCS_Enterance_Key: "Krat Central Station Main Entrance Key",
+    KCS_ENTRANCE_KEY: "Krat Central Station Main Entrance Key",
     KCH_KEY: "Krat City Hall Key",
     KCH_COURTYARD_KEY: "Krat City Hall Courtyard Key",
     RAIL_KEY: "Cable Railway Key",

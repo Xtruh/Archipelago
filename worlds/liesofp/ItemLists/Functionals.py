@@ -5,8 +5,8 @@ FUNC_GREAT_VC = 103
 FUNC_GMT = 104
 FUNC_INCREADIBLE_VC = 105
 FUNC_BOX = 106
-FUNC_STURDY_Box = 107
-FUNC_SPECIAL_Box = 108
+FUNC_STURDY_BOX = 107
+FUNC_SPECIAL_BOX = 108
 
 FUNC_ID_TO_NAME = {
     FUNC_EAT: "Enigma Assembly Tool",
@@ -15,8 +15,8 @@ FUNC_ID_TO_NAME = {
     FUNC_GMT: "Grinder Modification Tool",
     FUNC_INCREADIBLE_VC: "Incredible Venigni Collection",
     FUNC_BOX: "Krat Supply Box",
-    FUNC_STURDY_Box: "Sturdy Krat Supply Box",
-    FUNC_SPECIAL_Box: "Special Krat Supply Box"
+    FUNC_STURDY_BOX: "Sturdy Krat Supply Box",
+    FUNC_SPECIAL_BOX: "Special Krat Supply Box"
 }
 All_FUNC = list(FUNC_ID_TO_NAME.keys())
 

@@ -53,6 +53,17 @@ class EarlyKratCentralStationMainEntranceKey(Choice):
     default = option_off
 
 
+class EarlyEnigmaAssemblyTool(Choice):
+    """
+    Force Your Enigma Assembly Tool into an early sphere in your world or across all worlds.
+    """
+    display_name = "Enigma Assembly Tool"
+    option_off = 0
+    option_early_global = 1
+    option_early_local = 2
+    default = option_off
+
+
 class ShopWeapons(Toggle):
     """
     Add Shop Weapons into the item pool (You can still obtain shop weapons in their respective shops)
@@ -98,6 +109,7 @@ class LiesOfPOptions(PerGameCommonOptions):
 
     goal: Goal
     early_krat_central_station: EarlyKratCentralStationMainEntranceKey
+    early_weapon_assemble: EarlyEnigmaAssemblyTool
 
     shop_weapons: ShopWeapons
     boss_weapons: BossWeapons

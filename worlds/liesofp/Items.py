@@ -108,7 +108,7 @@ def full_item_pool(world: World, options: LiesOfPOptions):
     item_count = 0
     location_count = sum(1 for e in world.get_locations())
 
-    key = LiesOfPItem(KEY_ID_TO_NAME[KCS_Enterance_Key], ItemClass.progression, KCS_Enterance_Key, world.player)
+    key = LiesOfPItem(KEY_ID_TO_NAME[KCS_ENTRANCE_KEY], ItemClass.progression, KCS_ENTRANCE_KEY, world.player)
 
     world.multiworld.itempool.append(key)
     item_count += 1
@@ -200,12 +200,12 @@ def full_item_pool(world: World, options: LiesOfPOptions):
     world.multiworld.itempool.append(box)
     item_count += 1
 
-    box = LiesOfPItem(FUNC_ID_TO_NAME[FUNC_STURDY_Box], ItemClass.progression, FUNC_STURDY_Box, world.player)
+    box = LiesOfPItem(FUNC_ID_TO_NAME[FUNC_STURDY_BOX], ItemClass.progression, FUNC_STURDY_BOX, world.player)
 
     world.multiworld.itempool.append(box)
     item_count += 1
 
-    box = LiesOfPItem(FUNC_ID_TO_NAME[FUNC_SPECIAL_Box], ItemClass.progression, FUNC_SPECIAL_Box, world.player)
+    box = LiesOfPItem(FUNC_ID_TO_NAME[FUNC_SPECIAL_BOX], ItemClass.progression, FUNC_SPECIAL_BOX, world.player)
 
     world.multiworld.itempool.append(box)
     item_count += 1
@@ -246,7 +246,7 @@ def full_item_pool(world: World, options: LiesOfPOptions):
         world.multiworld.itempool.append(plug)
         item_count += 1
 
-    for i in range(14):
+    for i in range(39):
         caliber = LiesOfPItem(ARM_MATERIALS_ID_TO_NAME[MAT_ARM_UPGRADE], ItemClass.useful,
                               MAT_ARM_UPGRADE, world.player)
 
@@ -428,7 +428,7 @@ def king_of_puppets_item_pool(world: World, options: LiesOfPOptions):
     item_count = 0
     location_count = sum(1 for e in world.get_locations())
 
-    key = LiesOfPItem(KEY_ID_TO_NAME[KCS_Enterance_Key], ItemClass.progression, KCS_Enterance_Key, world.player)
+    key = LiesOfPItem(KEY_ID_TO_NAME[KCS_ENTRANCE_KEY], ItemClass.progression, KCS_ENTRANCE_KEY, world.player)
 
     world.multiworld.itempool.append(key)
     item_count += 1

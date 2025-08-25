@@ -56,7 +56,7 @@ def create_regions(world):
 
     connect(world.player, "menu-to-KCS", regions["Menu"], regions["Krat Central Station"])
 
-    key_item_name = KEY_ID_TO_NAME[KCS_Enterance_Key]
+    key_item_name = KEY_ID_TO_NAME[KCS_ENTRANCE_KEY]
     connect(world.player, "KCS-to-KCSP", regions["Krat Central Station"], regions["Krat Central Station Plaza"],
             lambda state, ki=key_item_name: state.has(ki, world.player))
 
@@ -138,7 +138,7 @@ def create_regions(world):
     connect(world.player, "CS-to-CK", regions["Krat Central Station Revisit"], regions["Collapsing Krat"])
 
     # todo change this to cryptic vessel when shops get randomized
-    box_items_name = (FUNC_ID_TO_NAME[FUNC_BOX], FUNC_ID_TO_NAME[FUNC_STURDY_Box], FUNC_ID_TO_NAME[FUNC_SPECIAL_Box])
+    box_items_name = (FUNC_ID_TO_NAME[FUNC_BOX], FUNC_ID_TO_NAME[FUNC_STURDY_BOX], FUNC_ID_TO_NAME[FUNC_SPECIAL_BOX])
     connect(world.player, "BS-to-HC", regions["Baron Swamp"], regions["Hermit's Cave"],
             lambda state, bi=box_items_name:
             state.has_all(bi, world.player) and

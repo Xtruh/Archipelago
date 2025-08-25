@@ -17,7 +17,7 @@ Only the base Lies of P game is required in order to play this game.
 However, the **Overture** DLC is recommended, as it will be fully supported in the future
 
 ## What Other Adjustments have been made to the Base Game?
-- The Azure Dragon Glaive and other Wukong collab items are not given to you at the start but are in the item pool
+- The Azure Dragon Glaive and other Wo-Long collab items are not given to you at the start but are in the item pool
 - Phase 7 in the P Organ upgrade is available on new game with a yaml option to add more quartz to the item pool
 - Chapter 1 and the original Hotel Krat are available after they normally become unacceptable
 
