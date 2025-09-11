@@ -1200,6 +1200,8 @@ Ch09_ItemSpot69 = 543
 Ch09_ItemSpot23 = 544
 CH09_Carcass_OneArmed_Named_00 = 545
 Ch09_ItemSpot26 = 546
+CH09_BlueFairy_Letter = 744
+Ch09_ItemSpot12 = 745
 
 KCS2_ID_TO_NAME = {
     Ch09_ItemSpot64: "KCS2: Bloody Letter - behind green pillar",
@@ -1241,7 +1243,9 @@ KCS2_ID_TO_NAME = {
     Ch09_ItemSpot69: "KCS2: Coil Mjolnir - chest in courtyard",
     Ch09_ItemSpot23: "KCS2: Thermite - by a window",
     CH09_Carcass_OneArmed_Named_00: "KCS2: Legion Plug - Carcass Elite drop",
-    Ch09_ItemSpot26: "KCS2: Half Moonstone - small tree at dead-end"
+    Ch09_ItemSpot26: "KCS2: Half Moonstone - small tree at dead-end",
+    CH09_BlueFairy_Letter: "KCS2: Letter From Someone who Has Gone Ahead - behind wall when revisiting start",
+    Ch09_ItemSpot12: "KCS2: LADA Break Cartridge - safe behind wall at train revisit"
 }
 
 ALL_KCS2 = list(KCS2_ID_TO_NAME.keys())

@@ -41,7 +41,6 @@ class Goal(Choice):
     option_nameless_puppet = 2
     default = option_simon_manus
 
-
 class EarlyKratCentralStationMainEntranceKey(Choice):
     """
     Force Your Krat Central Station Main Entrance Key into an early sphere in your world or across all worlds.

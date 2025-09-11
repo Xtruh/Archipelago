@@ -174,6 +174,16 @@ def full_item_pool(world: World, options: LiesOfPOptions):
     world.multiworld.itempool.append(eat)
     item_count += 1
 
+    gmt = LiesOfPItem(FUNC_ID_TO_NAME[FUNC_GMT], ItemClass.useful, FUNC_GMT, world.player)
+
+    world.multiworld.itempool.append(gmt)
+    item_count += 1
+
+    cube = LiesOfPItem(BASIC_ID_TO_NAME[BASIC_CUBE], ItemClass.useful, BASIC_CUBE, world.player)
+
+    world.multiworld.itempool.append(cube)
+    item_count += 1
+
     cryptic = LiesOfPItem(CRYPTIC_ID_TO_NAME[CRYPTIC_CRAFTED], ItemClass.progression, CRYPTIC_CRAFTED, world.player)
 
     world.multiworld.itempool.append(cryptic)
@@ -461,6 +471,16 @@ def king_of_puppets_item_pool(world: World, options: LiesOfPOptions):
     eat = LiesOfPItem(FUNC_ID_TO_NAME[FUNC_EAT], ItemClass.useful, FUNC_EAT, world.player)
 
     world.multiworld.itempool.append(eat)
+    item_count += 1
+
+    gmt = LiesOfPItem(FUNC_ID_TO_NAME[FUNC_GMT], ItemClass.useful, FUNC_GMT, world.player)
+
+    world.multiworld.itempool.append(gmt)
+    item_count += 1
+
+    cube = LiesOfPItem(BASIC_ID_TO_NAME[BASIC_CUBE], ItemClass.useful, BASIC_CUBE, world.player)
+
+    world.multiworld.itempool.append(cube)
     item_count += 1
 
     cryptic = LiesOfPItem(CRYPTIC_ID_TO_NAME[CRYPTIC_CRAFTED], ItemClass.progression, CRYPTIC_CRAFTED, world.player)
