@@ -28,6 +28,9 @@ def get_item_dict():
     for keyId in All_Keys:
         result[KEY_ID_TO_NAME[keyId]] = keyId
 
+    for basicId in ALL_BASIC:
+        result[BASIC_ID_TO_NAME[basicId]] = basicId
+
     for funcId in All_FUNC:
         result[FUNC_ID_TO_NAME[funcId]] = funcId
 
