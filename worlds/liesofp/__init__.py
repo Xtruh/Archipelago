@@ -38,7 +38,7 @@ class LiesOfPWorld(World):
     glitches_item_name = Items.GLITCHED
 
     def create_regions(self) -> None:
-        regions = Regions.create_regions(self)
+        regions = Regions.create_regions(self, self.options)
         Locations.create_locations(self, regions, self.options)
         self.multiworld.regions.extend(regions.values())
 
@@ -76,6 +76,7 @@ class LiesOfPWorld(World):
             "ring_link_ratio": self.options.ergo_to_ring_ratio.value,
             "death_link": self.options.death_link.value,
             "goal": self.options.goal.value,
+            "chapter6_access": self.options.chapter6_access.value,
         }
         return slot_data
 

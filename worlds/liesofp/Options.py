@@ -41,6 +41,18 @@ class Goal(Choice):
     option_nameless_puppet = 2
     default = option_simon_manus
 
+class Chapter6Access(Choice):
+    """
+    Early: Only requires Hotel access and +5 (normal) or +2 (special) weapon.
+    Early + P-Organ: Requires Hotel access, weapon requirement, and P-Organ upgrades.
+    Vanilla: weapon requirement, and the first Black Rabbit Brotherhood fight.
+    """
+    display_name = "Chapter 6 Acess"
+    option_early = 0
+    option_early_porgan = 1
+    option_vanilla = 2
+    default = option_early_porgan
+
 class EarlyKratCentralStationMainEntranceKey(Choice):
     """
     Force Your Krat Central Station Main Entrance Key into an early sphere in your world or across all worlds.
@@ -107,6 +119,7 @@ class LiesOfPOptions(PerGameCommonOptions):
     ergo_to_ring_ratio: ErgoToRingRatio
 
     goal: Goal
+    chapter6_access: Chapter6Access
     early_krat_central_station: EarlyKratCentralStationMainEntranceKey
     early_weapon_assemble: EarlyEnigmaAssemblyTool
 

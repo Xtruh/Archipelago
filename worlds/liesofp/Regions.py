@@ -8,10 +8,10 @@ from .ItemLists.Materials import *
 from .LocationLists.Chapters import *
 from .Rules import weapon_level
 
-from . import Items
+from . import Items, LiesOfPOptions
 
 
-def create_regions(world):
+def create_regions(world, options: LiesOfPOptions):
     regions: Dict[str, Region] = \
         {
             "Menu": Region("Menu", world.player, world.multiworld),
@@ -95,13 +95,28 @@ def create_regions(world):
     connect(world.player, "HB-to-MD", regions["Hobbler's Bridge"], regions["Malum District"])
 
     key_item_name = KEY_ID_TO_NAME[ROSA_KEY]
-    connect(world.player, "HK-to-RIS", regions["Hotel Krat"], regions["Rosa Isabelle Street"],
-            lambda state, ki=key_item_name:
-            state.has(ki, world.player) and weapon_level(state, world.player, 5) and
-            (
-                state.can_reach_location(KCH_ID_TO_NAME[CH02_Puppet_Judge_Boss_00_1], player=world.player) or
-                state.has(Items.GLITCHED, player=world.player)
-            ))
+    if options.chapter6_access == options.chapter6_access.option_early:
+        connect(world.player, "HK-to-RIS", regions["Hotel Krat"], regions["Rosa Isabelle Street"],
+                lambda state, ki=key_item_name:
+                state.has(ki, world.player) and (weapon_level(state, world.player, 5)or
+                        state.has(Items.GLITCHED, player=world.player)))
+
+    elif options.chapter6_access == options.chapter6_access.option_early_porgan:
+        connect(world.player, "HK-to-RIS", regions["Hotel Krat"], regions["Rosa Isabelle Street"],
+                lambda state, ki=key_item_name:
+                state.has(ki, world.player) and (weapon_level(state, world.player, 5)) and
+                (
+                    state.can_reach_location(KCH_ID_TO_NAME[CH02_Puppet_Judge_Boss_00_1], player=world.player) or
+                    state.has(Items.GLITCHED, player=world.player)
+                ))
+    else:
+        connect(world.player, "HK-to-RIS", regions["Hotel Krat"], regions["Rosa Isabelle Street"],
+                lambda state, ki=key_item_name:
+                state.has(ki, world.player) and (weapon_level(state, world.player, 5)) and
+                (
+                    state.can_reach_location(MD_ID_TO_NAME[CH05_Stalker_BRabbit_StrongMale_Boss_00], player=world.player) or
+                    state.has(Items.GLITCHED, player=world.player)
+                ))
 
     connect(world.player, "RIS-to-EOHE", regions["Rosa Isabelle Street"], regions["Estella Opera House Entrance"])
 
