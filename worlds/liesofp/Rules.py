@@ -67,7 +67,8 @@ def king_of_puppets_rules(multiworld: MultiWorld, world, player: int):
     add_rule(loc, lambda state: can_decrypt_vessel_pre_ch09(state, player, CRYPTIC_ID_TO_NAME[CRYPTIC_OLD]))
 
     loc = multiworld.get_location(TS_ID_TO_NAME[Ch05_ItemSpot15], player)
-    add_rule(loc, lambda state: can_decrypt_vessel_pre_ch09(state, player, CRYPTIC_ID_TO_NAME[CRYPTIC_OLD]))
+    add_rule(loc, lambda state: can_decrypt_vessel_pre_ch09(state, player, CRYPTIC_ID_TO_NAME[CRYPTIC_OLD])
+                                and state.has (KEY_ID_TO_NAME[ROBBER_KEY], player, 1))
 
     loc = multiworld.get_location(TS_ID_TO_NAME[Ch05_ItemSpot16_1], player)
     add_rule(loc,
@@ -136,7 +137,8 @@ def full_rules(multiworld: MultiWorld, world, player: int):
     add_rule(loc, lambda state: can_decrypt_vessel(state, player, CRYPTIC_ID_TO_NAME[CRYPTIC_OLD]))
 
     loc = multiworld.get_location(TS_ID_TO_NAME[Ch05_ItemSpot15], player)
-    add_rule(loc, lambda state: can_decrypt_vessel(state, player, CRYPTIC_ID_TO_NAME[CRYPTIC_OLD]))
+    add_rule(loc, lambda state: can_decrypt_vessel_pre_ch09(state, player, CRYPTIC_ID_TO_NAME[CRYPTIC_OLD])
+                                and state.has (KEY_ID_TO_NAME[ROBBER_KEY], player, 1))
 
     loc = multiworld.get_location(TS_ID_TO_NAME[Ch05_ItemSpot16_1], player)
     add_rule(loc,
@@ -229,8 +231,8 @@ def weapon_level(state: CollectionState, player, level: int) -> bool:
 
     special_amount = level_to_special_amount[level // 2]
     has_special_level = (
-            state.has(WEAPON_MATERIALS_ID_TO_NAME[MAT_SPECIAL_WPN_UPGRADE], player, normal_amount[0]) and
-            state.has(WEAPON_MATERIALS_ID_TO_NAME[MAT_SPECIAL_WPN_UPGRADE2], player, normal_amount[1])
+            state.has(WEAPON_MATERIALS_ID_TO_NAME[MAT_SPECIAL_WPN_UPGRADE], player, special_amount[0]) and
+            state.has(WEAPON_MATERIALS_ID_TO_NAME[MAT_SPECIAL_WPN_UPGRADE2], player, special_amount[1])
     )
 
     return (has_normal_level or (has_special and has_special_level)) or state.has(Items.GLITCHED, player)
