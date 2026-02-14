@@ -248,3 +248,24 @@ NGP_PARTS_ID_TO_NAME = {
     PARTS_NGP2_STRIKE4_LINER: "LADA Spaced Armor Liner +2"
 }
 ALL_NGP_PARTS_MATERIALS = list(NGP_PARTS_ID_TO_NAME.keys())
+
+DLC_PARTS_CART = 2400
+DLC_PARTS_CONV = 2401
+DLC_PARTS_LINER = 2402
+
+DLC_PARTS_ID_TO_NAME = {
+    DLC_PARTS_CART: "Workshop Union Finished Cartridge",
+    DLC_PARTS_CONV: "Workshop Union Auto-Adaptive Converter",
+    DLC_PARTS_LINER: "Workshop Union Composite Armor Liner"
+}
+ALL_DLC_PARTS = list(DLC_PARTS_ID_TO_NAME.keys())
+#probably not all NGP parts the wiki only has these 2 listed, but it seems all 3 have a +1 and +2 version
+DLC_NGP1_PARTS_CART = 2403
+DLC_NGP2_PARTS_CART = 2404
+
+DLC_NGP_PARTS_ID_TO_NAME = {
+    DLC_NGP1_PARTS_CART: "Workshop Union Finished Cartridge +1",
+    DLC_NGP2_PARTS_CART: "Workshop Union Finished Cartridge +2"
+}
+
+ALL_DLC_NGP_PARTS = list(DLC_NGP_PARTS_ID_TO_NAME.keys())

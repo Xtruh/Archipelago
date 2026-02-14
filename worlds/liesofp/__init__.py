@@ -5,6 +5,7 @@ from worlds.AutoWorld import World, WebWorld
 from .ItemLists.Functionals import FUNC_ID_TO_NAME, FUNC_EAT
 from .ItemLists.Keys import KEY_ID_TO_NAME, KCS_ENTRANCE_KEY
 from .ItemLists.Useables import ALL_ERGO, All_THROW, All_CONSUME, ERGO_ID_TO_NAME, THROW_ID_TO_NAME, CONSUME_ID_TO_NAME
+from .Groups import item_name_groups, location_name_groups
 
 from .Options import LiesOfPOptions
 from .Items import LiesOfPItem
@@ -37,7 +38,15 @@ class LiesOfPWorld(World):
 
     glitches_item_name = Items.GLITCHED
 
+    dlc_required = False
+
+    item_name_groups = item_name_groups
+    location_name_groups = location_name_groups
+
     def create_regions(self) -> None:
+        if self.options.goal.value >= self.options.goal.option_arlecchino_short:
+            self.options.dlc.value = self.options.dlc.option_enable
+
         regions = Regions.create_regions(self, self.options)
         Locations.create_locations(self, regions, self.options)
         self.multiworld.regions.extend(regions.values())
@@ -71,12 +80,27 @@ class LiesOfPWorld(World):
                 return item
 
     def fill_slot_data(self) -> Mapping[str, Any]:
+        if self.options.dlc or self.options.dlc_items:
+            self.dlc_required = True
+
+        self.check_dlc_start_inventory()
+
         slot_data = {
             "ring_link": self.options.ring_link.value,
             "ring_link_ratio": self.options.ergo_to_ring_ratio.value,
             "death_link": self.options.death_link.value,
             "goal": self.options.goal.value,
+            "dlc": self.options.dlc.value,
+            "dlc_items": self.options.dlc_items.value,
+            "require_horn": self.options.require_horn_overseer.value,
+            "require_bow_minigames": self.options.require_bow_minigames.value,
+            "require_grindstone_chapter4": self.options.require_grindstone_chapter4.value,
+            "require_flame_grindstone_bishop": self.options.require_flame_grindstone_bishop.value,
+            "require_upgrade_core_dlc_chapter2": self.options.require_upgrade_core_dlc_chapter2.value,
             "chapter6_access": self.options.chapter6_access.value,
+            "quarts_combat_logic": self.options.quartz_combat_logic.value,
+            "combat_logic": self.options.combat_logic.value,
+            "dlc_required": self.dlc_required,
         }
         return slot_data
 
@@ -93,4 +117,11 @@ class LiesOfPWorld(World):
         elif self.options.early_weapon_assemble == "early_local":
             self.multiworld.local_early_items[self.player][FUNC_ID_TO_NAME[FUNC_EAT]] = 1
 
+    def check_dlc_start_inventory(self):
+        start_inventory = self.multiworld.precollected_items[self.player]
 
+        for item in start_inventory:
+            if item.code > 2000:  # Lowest DLC Item ID
+                print("DLC ITEM DETECTED")
+                self.dlc_required = True
+                return

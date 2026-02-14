@@ -91,3 +91,31 @@ BASIC_ID_TO_NAME = {
 }
 
 ALL_BASIC = list(BASIC_ID_TO_NAME.keys())
+
+DLC_FUNC_PLAYER = 2011
+DLC_FUNC_LUXURY_BAG = 2012
+DLC_FUNC_PREMIUM_BAG = 2013
+DLC_FUNC_CORE = 2014
+
+DLC_FUNC_ID_TO_NAME = {
+    DLC_FUNC_PLAYER: "Echo Player",
+    DLC_FUNC_LUXURY_BAG: "Klaus's Luxury Bag",
+    DLC_FUNC_PREMIUM_BAG: "Klaus's Premium Luxury Bag",
+    DLC_FUNC_CORE: "Upgrade Core"
+}
+
+ALL_DLC_FUNC = list(DLC_FUNC_ID_TO_NAME.keys())
+
+DLC_GRIND_BROKEN_PIERCE = 2015
+DLC_GRIND_BROKEN_CUTTING = 2016
+DLC_GRIND_PIERCE = 2017
+DLC_GRIND_CUTTING = 2018
+
+DLC_GRIND_ID_TO_NAME = {
+    DLC_GRIND_BROKEN_PIERCE: "Broken Piercing Grindstone",
+    DLC_GRIND_BROKEN_CUTTING: "Broken Cutting Grindstone",
+    DLC_GRIND_PIERCE: "Piercing Grindstone",
+    DLC_GRIND_CUTTING: "Cutting Grindstone"
+}
+
+ALL_DLC_GRIND = list(DLC_GRIND_ID_TO_NAME.keys())

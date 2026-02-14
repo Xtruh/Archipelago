@@ -121,3 +121,29 @@ BOSS_ERGO_ID_TO_NAME = {
     BOSS_ERGO_NAMELESS: "Nameless Puppet's Ergo",
 }
 ALL_BOSS_ERGO = list(BOSS_ERGO_ID_TO_NAME.keys())
+
+DLC_CONSUME_FREEZE = 2019
+DLC_CONSUME_ERGO = 2020
+DLC_CONSUME_GRINDSTONE = 2021
+DLC_CONSUME_ENHANCE = 2022
+DLC_CONSUME_RECOVER = 2023
+
+DLC_CONSUME_ID_TO_NAME = {
+    DLC_CONSUME_FREEZE: "Anti-Freeze Ampoule",
+    DLC_CONSUME_ERGO: "Gemini's Enhanced Detection",
+    DLC_CONSUME_GRINDSTONE: "Grindstone Coating Capsule",
+    DLC_CONSUME_ENHANCE: "Miraculous Enhancement Ampoule",
+    DLC_CONSUME_RECOVER: "Miraculous Recovery Ampoule"
+}
+
+ALL_DLC_CONSUME = list(DLC_CONSUME_ID_TO_NAME.keys())
+
+DLC_BOSS_ERGO_MARKIONA = 2024
+DLC_BOSS_ERGO_GUARDIAN = 2025
+
+DLC_BOSS_ERGO_ID_TO_NAME = {
+    DLC_BOSS_ERGO_MARKIONA: "Macabre Puppeteer's Ergo",
+    DLC_BOSS_ERGO_GUARDIAN: "Tortured Guardian's Ergo"
+}
+
+ALL_DLC_BOSS_ERGO = list(DLC_BOSS_ERGO_ID_TO_NAME.keys())

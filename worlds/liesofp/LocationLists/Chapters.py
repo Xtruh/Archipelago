@@ -401,6 +401,7 @@ Ch04_ItemSpot24 = 174
 Ch04_ItemSpot61 = 175
 Ch04_ItemSpot26 = 176
 Ch04_ItemSpot27 = 177
+Ch04_ItemSpot18 = 1103
 
 POM_ID_TO_NAME = {
     Ch04_ItemSpot19: "POM: Hidden Moonstone - shack after carcass cutscene",
@@ -411,7 +412,8 @@ POM_ID_TO_NAME = {
     Ch04_ItemSpot24: "POM: Fire Abrasive - bench inside of the church",
     Ch04_ItemSpot61: "POM: Belford Break Cartridge - chest behind Giango",
     Ch04_ItemSpot26: "POM: Dim Ergo Fragment - right side of bridge to St. Frangelico Cathedral Chapel",
-    Ch04_ItemSpot27: "POM: Attribute Purification Ampoule - end of bridge to St. Frangelico Cathedral Chapel"
+    Ch04_ItemSpot27: "POM: Attribute Purification Ampoule - end of bridge to St. Frangelico Cathedral Chapel",
+    Ch04_ItemSpot18: "POM: Vivid Ergo Fragment - near stargazer after cable lift"
 }
 
 ALL_POM = list(POM_ID_TO_NAME.keys())
@@ -1063,6 +1065,7 @@ Ch08_ItemSpot65 = 499
 CH08_Carcass_GreenHunter_Fusion_Boss_00_1 = 500
 CH08_Carcass_GreenHunter_Fusion_Boss_00_2 = 501
 Ch08_ItemSpot15 = 743
+Ch08_ItemSpot07 = 1104
 
 BS_ID_TO_NAME = {
     Ch08_ItemSpot83: "BS: Resplendent Ergo Fragment - next to box inside train station",
@@ -1139,7 +1142,8 @@ BS_ID_TO_NAME = {
     Ch08_ItemSpot65: "BS: Sentry's Notebook - before Green Monster of the Swamp",
     CH08_Carcass_GreenHunter_Fusion_Boss_00_1: "BS: Puppet-Devouring Green Hunter's Ergo - Green Monster of the Swamp drop (1)",
     CH08_Carcass_GreenHunter_Fusion_Boss_00_2: "BS: Golden Ergo - Green Monster of the Swamp drop (2)",
-    Ch08_ItemSpot15: "BS: Chain - next to minecart shortcut"
+    Ch08_ItemSpot15: "BS: Chain - next to minecart shortcut",
+    Ch08_ItemSpot07: "BS: Dim Ergo Chunk - ledge after bear traps"
 }
 
 ALL_BS = list(BS_ID_TO_NAME.keys())
@@ -1200,7 +1204,7 @@ Ch09_ItemSpot69 = 543
 Ch09_ItemSpot23 = 544
 CH09_Carcass_OneArmed_Named_00 = 545
 Ch09_ItemSpot26 = 546
-Ch09_ItemSpot37 = 744
+CH09_ItemSpot37 = 744
 Ch09_ItemSpot12 = 745
 
 KCS2_ID_TO_NAME = {
@@ -1244,7 +1248,7 @@ KCS2_ID_TO_NAME = {
     Ch09_ItemSpot23: "KCS2: Thermite - by a window",
     CH09_Carcass_OneArmed_Named_00: "KCS2: Legion Plug - Carcass Elite drop",
     Ch09_ItemSpot26: "KCS2: Half Moonstone - small tree at dead-end",
-    Ch09_ItemSpot37: "KCS2: Letter From Someone who Has Gone Ahead - behind wall when revisiting start",
+    CH09_ItemSpot37: "KCS2: Letter From Someone who Has Gone Ahead - behind wall when revisiting start",
     Ch09_ItemSpot12: "KCS2: LADA Break Cartridge - safe behind wall at train revisit"
 }
 
@@ -1707,3 +1711,829 @@ UTA_ID_TO_NAME = {
 }
 
 ALL_UTA = list(UTA_ID_TO_NAME.keys())
+
+DLC_CH01_ItemSpot03 = 746
+DLC_CH01_ItemSpot01_1 = 747
+DLC_CH01_ItemSpot01_2 = 748
+DLC_CH01_ItemSpot04 = 749
+DLC_CH01_ItemSpot26 = 750
+DLC_CH01_ItemSpot30 = 751
+DLC_CH01_ItemSpot10 = 752
+DLC_CH01_ItemSpot07 = 753
+DLC_CH01_ItemSpot76 = 754
+
+SF_ID_TO_NAME = {
+    DLC_CH01_ItemSpot03: "SF: Anti-Freeze Ampoule - bloodstain on ground",
+    DLC_CH01_ItemSpot01_1: "SF: Winter's Hunting Hat - chest in small cave (1)",
+    DLC_CH01_ItemSpot01_2: "SF: Winter's Hunting Apparel - chest in small cave (2)",
+    DLC_CH01_ItemSpot04: "SF: Krat Zoo Newspaper Advert - wagon on cliff",
+    DLC_CH01_ItemSpot26: "SF: Circus Worker's Letter - next to destructible boxes",
+    DLC_CH01_ItemSpot30: "SF: Full Moonstone of the Covenant - small cave with icicle",
+    DLC_CH01_ItemSpot10: "SF: Resplendent Ergo Fragment - corpse near monkey cages",
+    DLC_CH01_ItemSpot07: "SF: Fable Catalyst - destructable boxes near monkey cages",
+    DLC_CH01_ItemSpot76: "SF: Colonel Little's Guide to Krat Zoo - statue outside Krat Zoo entrance"
+}
+
+ALL_SF = list(SF_ID_TO_NAME.keys())
+
+DLC_CH01_ItemSpot18 = 755
+DLC_CH01_ItemSpot85 = 756
+DLC_CH01_ItemSpot12 = 757
+DLC_CH01_ItemSpot79 = 758
+DLC_CH01_ItemSpot103 = 759
+DLC_CH01_ItemSpot09 = 760
+DLC_CH01_ItemSpot14 = 761
+DLC_CH01_Carcass_GiraffeNoChange_NoRespawn_Elite_00 = 762
+DLC_CH01_ItemSpot16 = 763
+DLC_CH01_ItemSpot57 = 764
+DLC_CH01_ItemSpot93 = 765
+DLC_CH01_ItemSpot82 = 766
+DLC_CH01_ItemSpot21 = 767
+DLC_CH01_ItemSpot17 = 768
+DLC_CH01_RedButterFly_White_Illusion_00 = 769
+DLC_CH01_ItemSpot20 = 770
+DLC_CH01_ItemSpot06 = 771
+DLC_CH01_ItemSpot46 = 772
+DLC_CH01_ItemSpot23 = 773
+DLC_CH01_ItemSpot43 = 774
+DLC_CH01_ItemSpot22 = 775
+DLC_CH01_ItemSpot29 = 776
+DLC_CH01_ItemSpot19 = 777
+DLC_CH01_ItemSpot28 = 778
+DLC_CH01_ItemSpot50 = 779
+DLC_CH01_Carcass_Giraffe_Named_00 = 780
+DLC_CH01_ItemSpot60 = 781
+DLC_CH01_ItemSpot47 = 782
+DLC_CH01_ItemSpot38 = 783
+DLC_CH01_ItemSpot36 = 784
+DLC_CH01_ItemSpot32 = 785
+DLC_CH01_ItemSpot84 = 786
+DLC_CH01_ItemSpot112 = 1011
+
+KZ_ID_TO_NAME = {
+    DLC_CH01_ItemSpot18: "KZ: Shot Put - corner of room behind crates",
+    DLC_CH01_ItemSpot85: "KZ: Discover Wildlife: Bears! - pillar center of room",
+    DLC_CH01_ItemSpot12: "KZ: Hidden Moonstone - broken staircase",
+    DLC_CH01_ItemSpot79: "KZ: Krat Mysteries: The Vanished Taxidermist - next to some exhibits",
+    DLC_CH01_ItemSpot103: "KZ: Dim Ergo Chunk - next to some exhibits",
+    DLC_CH01_ItemSpot09: "KZ: Quartz - chest in courtyard",
+    DLC_CH01_ItemSpot14: "KZ: Anti-Freeze Ampoule - on a exhibit",
+    DLC_CH01_Carcass_GiraffeNoChange_NoRespawn_Elite_00: "KZ: Resplendent Ergo Chunk - Carcass Elephant Elite drop",
+    DLC_CH01_ItemSpot16: "KZ: Thermite - boxes near Elite enemy",
+    DLC_CH01_ItemSpot57: "KZ: Legion Magazine - hallway on right side",
+    DLC_CH01_ItemSpot93: "KZ: Royal Horn Bow - chest in right side hallway",
+    DLC_CH01_ItemSpot82: "KZ: Dark Moon Moonstone of the Covenant - balcony before ladder outside",
+    DLC_CH01_ItemSpot21: "KZ: Motivity Crank - on table",
+    DLC_CH01_ItemSpot17: "KZ: Legion Caliber - chest in small cave with icicle",
+    DLC_CH01_RedButterFly_White_Illusion_00: "KZ: Quartz - White Butterfly drop",
+    DLC_CH01_ItemSpot20: "KZ: Attribute Resistance Ampoule - by frozen waterfall",
+    DLC_CH01_ItemSpot06: "KZ: Winter's Sleep Amulet - chest in cage",
+    DLC_CH01_ItemSpot46: "KZ: Anti-Freeze Ampoule - behind a cage",
+    DLC_CH01_ItemSpot23: "KZ: Crescent Moonstone - on broken bridge",
+    DLC_CH01_ItemSpot43: "KZ: Dim Ergo Chunk - area with dog cages",
+    DLC_CH01_ItemSpot22: "KZ: Fire Abrasive - next to tree in exhibit",
+    DLC_CH01_ItemSpot29: "KZ: Carcass Body Fluid Bottle - next to bars for a cage",
+    DLC_CH01_ItemSpot19: "KZ: Carcass Body Fluid Bottle - chest next to tree",
+    DLC_CH01_ItemSpot28: "KZ: Hidden Moonstone - inside a cage",
+    DLC_CH01_ItemSpot50: "KZ: Miraculous Enhancement Ampoule - dead-end of frozen river",
+    DLC_CH01_Carcass_Giraffe_Named_00: "KZ: Genius's Legion Plug - Carcass Elephant Elite drop",
+    DLC_CH01_ItemSpot60: "KZ: Balace Crank - dead-end near Elite enemy",
+    DLC_CH01_ItemSpot47: "KZ: Anti-Freeze Ampoule - near Elite enemy",
+    DLC_CH01_ItemSpot38: "KZ: Thermite - behind bird tree",
+    DLC_CH01_ItemSpot36: "KZ: Resplendent Ergo Fragment - ledge above frozen river",
+    DLC_CH01_ItemSpot32: "KZ: Lorenzini Bolt - chest at end of frozen river",
+    DLC_CH01_ItemSpot84: "KZ: Announcement for the Brotherhood of Truth - on Alchemist corpse",
+    DLC_CH01_ItemSpot112: "KZ: Golden Seed - use whistle or horn on bird tree"
+}
+
+ALL_KZ = list(KZ_ID_TO_NAME.keys())
+
+DLC_CH01_ItemSpot80 = 787
+DLC_CH01_ItemSpot52 = 788
+DLC_CH01_ItemSpot68 = 789
+DLC_CH01_ItemSpot63_1 = 790
+DLC_CH01_ItemSpot63_2 = 791
+DLC_CH01_ItemSpot51 = 792
+DLC_CH01_ItemSpot49 = 793
+DLC_CH01_ItemSpot75 = 794
+DLC_CH01_ItemSpot53 = 795
+DLC_CH01_ItemSpot45 = 796
+DLC_CH01_ItemSpot87 = 797
+DLC_CH01_ItemSpot48 = 798
+DLC_CH01_ItemSpot73 = 799
+DLC_CH01_ItemSpot37 = 800
+DLC_CH01_ItemSpot42 = 801
+DLC_CH01_Carcass_Crocodile_Seed_00 = 802
+DLC_CH01_ItemSpot86 = 803
+DLC_CH01_ItemSpot104 = 804
+
+SEC_ID_TO_NAME = {
+    DLC_CH01_ItemSpot80: "SEC: Sawtoothed Wheel x10 - behind some destructible boxes",
+    DLC_CH01_ItemSpot52: "SEC: Cluster Grenade - on counter",
+    DLC_CH01_ItemSpot68: "SEC: Gemini's Enhanced Detection - next to crates",
+    DLC_CH01_ItemSpot63_1: "SEC: Broken Cutting Grindstone - chest on upper platforms (1)",
+    DLC_CH01_ItemSpot63_2: "SEC: Broken Piercing Grindstone - chest on upper platforms (2)",
+    DLC_CH01_ItemSpot51: "SEC: Miraculous Recovery Ampoule - near destructible boxes in alcove",
+    DLC_CH01_ItemSpot49: "SEC: Dark Moon Moonstone of the Covenant - near destructible boxes in alcove",
+    DLC_CH01_ItemSpot75: "SEC: Radiant Ergo Chunk - near tree in kangaroo exhibit",
+    DLC_CH01_ItemSpot53: "SEC: Fable Catalyst - corpse in kangaroo exhibit",
+    DLC_CH01_ItemSpot45: "SEC: Technique Crank - corpse on frozen pond",
+    DLC_CH01_ItemSpot87: "SEC: Resplendent Ergo Fragment - behind destructible boxes on ledge",
+    DLC_CH01_ItemSpot48: "SEC: Special Resistance Ampoule - alcove in kangaroo exhibit",
+    DLC_CH01_ItemSpot73: "SEC: Secret Letter with the Uroboros Emblem - corpse before shortcut",
+    DLC_CH01_ItemSpot37: "SEC: Special Purification Ampoule - on counter by shortcut",
+    DLC_CH01_ItemSpot42: "SEC: Crescent Moonstone - ladder before boss",
+    DLC_CH01_Carcass_Crocodile_Seed_00: "SEC: Full Moonstone - Tyrannical Predator boss drop",
+    DLC_CH01_ItemSpot86: "SEC: Star Fragment - by locked door",
+    DLC_CH01_ItemSpot104: "SEC: Attribute Purification Ampoule - corpse by tipped bench"
+}
+
+ALL_SEC = list(SEC_ID_TO_NAME.keys())
+
+DLC_CH01_ItemSpot69 = 805
+DLC_CH01_ItemSpot94 = 806
+DLC_CH01_ItemSpot02 = 807
+DLC_CH01_Reborner_Muscular_DLCStat_NoRespawn_Elite_00 = 808
+DLC_CH01_ItemSpot99 = 809
+DLC_CH01_ItemSpot98 = 810
+DLC_CH01_ItemSpot106 = 811
+DLC_CH01_ItemSpot33 = 812
+DLC_CH01_ItemSpot34 = 813
+DLC_CH01_ItemSpot113 = 814
+DLC_CH01_Reborner_Marciona_Boss_00_1 = 815
+DLC_CH01_Reborner_Marciona_Boss_00_2 = 816
+
+GI_ID_TO_NAME = {
+    DLC_CH01_ItemSpot69: "GI: Electric Blitz Abrasive - cage",
+    DLC_CH01_ItemSpot94: "GI: Throwing Cell - corner by palm trees",
+    DLC_CH01_ItemSpot02: "GI: Ancient Disk - circular building",
+    DLC_CH01_Reborner_Muscular_DLCStat_NoRespawn_Elite_00: "GI: Emergency Directive: No. 1 - Victor Elite Enemy Drop",
+    DLC_CH01_ItemSpot99: "GI: Acid Abrasive - in room with elite enemy",
+    DLC_CH01_ItemSpot98: "GI: Resplendent Ergo Fragment - on log",
+    DLC_CH01_ItemSpot106: "GI: Half Moonstone - on multi-level platform",
+    DLC_CH01_ItemSpot33: "GI: Grindstone Coating Capsule - in bushes",
+    DLC_CH01_ItemSpot34: "GI: Dim Ergo Chunk - upper level of greenhouse",
+    DLC_CH01_ItemSpot113: "GI: A Warning to Markiona - table in top room of greenhouse (1)",
+    DLC_CH01_Reborner_Marciona_Boss_00_1: "GI: Macabre Puppeteer's Ergo - Markiona Puppeteer of Death Drop (1)",
+    DLC_CH01_Reborner_Marciona_Boss_00_2: "GI: Markiona's Key - Markiona Puppeteer of Death Drop (2)"
+}
+
+ALL_GI = list(GI_ID_TO_NAME.keys())
+
+DLC_CH01_ItemSpot55 = 817
+DLC_CH01_ItemSpot67 = 818
+DLC_CH01_ItemSpot115 = 819
+DLC_CH01_ItemSpot92 = 820
+DLC_CH01_Gesture_Dance = 821
+DLC_CH01_ItemSpot120 = 822
+DLC_CH01_ItemSpot114 = 823
+DLC_CH01_RedButterFly_Red_00 = 824
+DLC_CH01_ItemSpot64 = 825
+DLC_CH01_ItemSpot61 = 826
+DLC_CH01_Puppet_Fguide_NoRespawn_Elite_00 = 827
+DLC_CH01_ItemSpot78 = 828
+DLC_CH01_ItemSpot105 = 829
+DLC_CH01_ItemSpot72 = 830
+DLC_CH01_Puppet_FlameAcrobat_Named_00 = 831
+DLC_CH01_ItemSpot97 = 832
+DLC_CH01_ItemSpot110 = 833
+DLC_CH01_ItemSpot108 = 834
+DLC_CH01_ItemSpot05 = 835
+DLC_CH01_ItemSpot65 = 836
+DLC_CH01_ItemSpot15 = 837
+DLC_CH01_ItemSpot107 = 838
+DLC_CH01_ItemSpot117 = 839
+DLC_CH01_ItemSpot109 = 840
+DLC_CH01_ItemSpot41 = 841
+DLC_CH01_ItemSpot91 = 842
+DLC_CH01_Prize_Pinwheels_E01 = 843
+DLC_CH01_ItemSpot27_1 = 844
+DLC_CH01_ItemSpot27_2 = 845
+
+CG_ID_TO_NAME = {
+    DLC_CH01_ItemSpot55: "CG: Sawtoothed Wheel - carnival tent counter",
+    DLC_CH01_ItemSpot67: "CG: Royal Flower Tea Set - win carnival game",
+    DLC_CH01_ItemSpot115: "CG: Carnival Coin - near big tower",
+    DLC_CH01_ItemSpot92: "CG: Carnival Prize Announcement - table next to cart",
+    DLC_CH01_Gesture_Dance: "CG: Tap Dance - from puppet show cart",
+    DLC_CH01_ItemSpot120: "CG: Changes to Reconnaissance Orders - corpse before Parade Master",
+    DLC_CH01_ItemSpot114: "CG: Resplendent Ergo Chunk - icicle cave",
+    DLC_CH01_RedButterFly_Red_00: "CG: Legion Caliber - Red Butterfly drop",
+    DLC_CH01_ItemSpot64: "CG: Attribute Resistance Ampoule - under bridge",
+    DLC_CH01_ItemSpot61: "CG: Carnival Coin - wall in ice river",
+    DLC_CH01_Puppet_Fguide_NoRespawn_Elite_00: "CG: Carnival Coin - Parade Master drop",
+    DLC_CH01_ItemSpot78: "CG: Gemini's Enhanced Detection - outside carnival minigame tent",
+    DLC_CH01_ItemSpot105: "CG: Maniac's Pinwheel - carnival minigame reward",
+    DLC_CH01_ItemSpot72: "CG: Fable Catalyst - bench",
+    DLC_CH01_Puppet_FlameAcrobat_Named_00: "CG: Vivid Ergo Crystal - carnival elite enemy drop",
+    DLC_CH01_ItemSpot97: "CG: Workshop Union Auto-adaptive Converter - safe after carnival elite",
+    DLC_CH01_ItemSpot110: "CG: Saw Blade - corner by bench",
+    DLC_CH01_ItemSpot108: "CG: Dim Ergo Chunk - under farris wheel",
+    DLC_CH01_ItemSpot05: "CG: Zoo Tram Station Key - path above farris wheel",
+    DLC_CH01_ItemSpot65: "CG: Half Moonstone - on the carousel",
+    DLC_CH01_ItemSpot15: "CG: Sawtoothed Wheel - second carnival tent counter",
+    DLC_CH01_ItemSpot107: "CG: Miraculous Recovery Ampoule - second carnival tent reward",
+    DLC_CH01_ItemSpot117: "CG: Legion Magazine - bench",
+    DLC_CH01_ItemSpot109: "CG: Carnival Coin - on corpse near carousel",
+    DLC_CH01_ItemSpot41: "CG: Sharp Pipe - on corpse after drop",
+    DLC_CH01_ItemSpot91: "CG: Full Moonstone of the Covenant - reward for using Carnival Coin",
+    DLC_CH01_Prize_Pinwheels_E01: "CG: Strategist's Amulet - Tap Dance in front of clown",
+    DLC_CH01_ItemSpot27_1: "CG: The Eccentric's Mask - Black Rabbit Brotherhood room (1)",
+    DLC_CH01_ItemSpot27_2: "CG: Piercing Death's Hunting Apparel - Black Rabbit Brotherhood room (2)"
+}
+
+ALL_CG = list(CG_ID_TO_NAME.keys())
+
+DLC_BlackRabbit_Costume01_1 = 846
+DLC_BlackRabbit_Costume01_2 = 847
+DLC_BlackRabbit_Costume02 = 854
+DLC_BlackRabbit_Costume03 = 903
+DLC_BlackRabbit_Costume04 = 1057
+
+BRB_ID_TO_NAME = {
+    DLC_BlackRabbit_Costume01_1: "Black Rabbit Hole Key - reward for equipping Piercing Death's Hunting Apparel (1)",
+    DLC_BlackRabbit_Costume01_2: "The Brotherhood's Notes - reward for equipping Piercing Death's Hunting Apparel (2)",
+    DLC_BlackRabbit_Costume02: "Delivery Receipt - reward for equipping Permeating Death's Hunting Apparel",
+    DLC_BlackRabbit_Costume03: "Black Rabbit Brotherhood's Family Photo - reward for equipping Black Death's Protective Apparel",
+    DLC_BlackRabbit_Costume04: "Missing Keys Log - reward for equipping Blazing Death's Hunting Apparel"
+}
+
+ALL_BRB = list(BRB_ID_TO_NAME.keys())
+
+DLC_CH01_ItemSpot95 = 848
+
+ZTS_ID_TO_NAME = {
+    DLC_CH01_ItemSpot95: "ZTS: Dim Ergo Chunk - behind Blind Painter"
+}
+
+ALL_ZTS = list(ZTS_ID_TO_NAME.keys())
+
+DLC_CH00_ItemSpot05_1 = 849
+DLC_CH00_ItemSpot05_2 = 850
+DLC_CH00_ItemSpot04 = 851
+DLC_CH00_ItemSpot02_1 = 852
+DLC_CH00_ItemSpot02_2 = 853
+DLC_CH00_ItemSpot01 = 855
+DLC_CH00_ItemSpot03 = 856
+DLC_H_Alidoro_Code_E02 = 926
+DLC_H_Alidoro_Code_E03 = 959
+DLC_H_Alidoro_Code_E04_1 = 1049
+DLC_H_Alidoro_Code_E04_2 = 1050
+
+EHK_ID_TO_NAME = {
+    DLC_CH00_ItemSpot05_1: "EHK: Upgrade Core - chest next to chair (1)",
+    DLC_CH00_ItemSpot05_2: "EHK: Quartz - chest next to chair (2)",
+    DLC_CH00_ItemSpot04: "EHK: Letter Delivered to the Garden - garden with gold tree",
+    DLC_CH00_ItemSpot02_1: "EHK: The Youngest's Mask - Black Rabbit Brotherhood room (1)",
+    DLC_CH00_ItemSpot02_2: "EHK: Permeating Death's Hunting Apparel - Black Rabbit Brotherhood room (2)",
+    DLC_CH00_ItemSpot01: "EHK: Letter from an Old Friend (undelivered) - table in room with Klaus",
+    DLC_CH00_ItemSpot03: "EHK: Crumpled Letter - corner of Hotel",
+    DLC_H_Alidoro_Code_E02: "EHK: Wirlwind Amulet - reward for decrypting Bloody Cipher Machine",
+    DLC_H_Alidoro_Code_E03: "EHK: Ancient Disk - reward for decrypting Corroded Cipher Machine",
+    DLC_H_Alidoro_Code_E04_1: "EHK: Famed Detective's Coat - reward for decrypting Frosted Cipher Machine (1)",
+    DLC_H_Alidoro_Code_E04_2: "EHK: Famed Detective's Hat - reward for decrypting Frosted Cipher Machine (2)"
+}
+
+ALL_EHK = list(EHK_ID_TO_NAME.keys())
+
+DLC_CH02_ItemSpot01 = 857
+DLC_CH02_ItemSpot05 = 858
+DLC_CH02_ItemSpot06 = 859
+DLC_CH02_ItemSpot08 = 860
+DLC_CH02_ItemSpot09 = 861
+DLC_CH02_ItemSpot10 = 862
+DLC_CH02_ItemSpot11 = 863
+DLC_CH02_ItemSpot12 = 864
+DLC_CH02_ItemSpot16 = 865
+DLC_CH02_ItemSpot18 = 866
+DLC_CH02_ItemSpot15 = 867
+DLC_CH02_ItemSpot13 = 868
+DLC_CH02_ItemSpot20 = 869
+DLC_CH02_ItemSpot19 = 870
+DLC_CH02_ItemSpot21 = 871
+DLC_CH02_ItemSpot73 = 872
+DLC_CH02_ItemSpot69 = 873
+DLC_CH02_ItemSpot43 = 874
+DLC_CH02_ItemSpot25 = 875
+DLC_CH02_ItemSpot26 = 876
+DLC_CH02_ItemSpot27 = 877
+DLC_CH02_ItemSpot29 = 878
+DLC_CH02_RedButterFly_Purple_00 = 879
+DLC_CH02_ItemSpot30 = 880
+DLC_CH02_ItemSpot31 = 881
+DLC_CH02_ItemSpot32 = 882
+DLC_CH02_Carcass_Ironball_Named_00 = 883
+DLC_CH02_ItemSpot33 = 884
+DLC_CH02_ItemSpot34 = 885
+DLC_CH02_ItemSpot35 = 886
+DLC_CH02_ItemSpot23 = 887
+DLC_CH02_ItemSpot37 = 888
+DLC_CH02_ItemSpot38 = 889
+DLC_CH02_ItemSpot45 = 890
+DLC_CH02_ItemSpot39 = 891
+DLC_CH02_Sheep_E01_1 = 892
+DLC_CH02_Sheep_E01_2 = 893
+DLC_CH02_Sheep_E01_3 = 894
+DLC_CH02_ItemSpot44_1 = 901
+DLC_CH02_ItemSpot44_2 = 902
+DLC_CH02_ItemSpot36 = 982
+DLC_CH02_ItemSpot40 = 983
+
+ZUF_ID_TO_NAME = {
+    DLC_CH02_ItemSpot01: "ZUF: Attribute Resistance Ampoule - corpse of a Alchemist",
+    DLC_CH02_ItemSpot05: "ZUF: Special Purification Ampule - platforms above frozen zone",
+    DLC_CH02_ItemSpot06: "ZUF: Fire Abrasive - by destructible boxes",
+    DLC_CH02_ItemSpot08: "ZUF: Legion Magazine - in pipe",
+    DLC_CH02_ItemSpot09: "ZUF: Half Moonstone - dead-end under floor",
+    DLC_CH02_ItemSpot10: "ZUF: Anti-Freeze Ampoule - beside shortcut door",
+    DLC_CH02_ItemSpot11: "ZUF: Sharp Pipe - next to gate",
+    DLC_CH02_ItemSpot12: "ZUF: Fable Catalyst - next to barrel",
+    DLC_CH02_ItemSpot16: "ZUF: Vivid Ergo Chunk - near catwalk",
+    DLC_CH02_ItemSpot18: "ZUF: Miraculous Enhancement Ampoule - on small platform",
+    DLC_CH02_ItemSpot15: "ZUF: Attribute Resistance Ampoule - open room",
+    DLC_CH02_ItemSpot13: "ZUF: Technique Crank - dead-end of pipe",
+    DLC_CH02_ItemSpot20: "ZUF: Hidden Moonstone - upper level in cell",
+    DLC_CH02_ItemSpot19: "ZUF: Thermite - upper level dead-end",
+    DLC_CH02_ItemSpot21: "ZUF: Tenacious Amulet - drop down in chest",
+    DLC_CH02_ItemSpot73: "ZUF: Crumpled Interrogation Log - in cell",
+    DLC_CH02_ItemSpot69: "ZUF: Frost-covered Instructions - up elevator",
+    DLC_CH02_ItemSpot43: "ZUF: Legion Amulet - chest up elevator",
+    DLC_CH02_ItemSpot25: "ZUF: Anti-Freeze Ampoule - bed in cell",
+    DLC_CH02_ItemSpot26: "ZUF: Attribute Purification Ampoule - After drop down",
+    DLC_CH02_ItemSpot27: "ZUF: Dark Moon Moonstone of the Covenant - near shortcut door",
+    DLC_CH02_ItemSpot29: "ZUF: Puppet of the Future's Welder - chest in lower section",
+    DLC_CH02_RedButterFly_Purple_00: "ZUF: Full Moonstone of the Convenent - Purple Butterfly drop",
+    DLC_CH02_ItemSpot30: "ZUF: Sawtoothed Wheel - small room",
+    DLC_CH02_ItemSpot31: "ZUF: Radiant Ergo Chunk - small room",
+    DLC_CH02_ItemSpot32: "ZUF: Half Moonstone - near puppet on wall",
+    DLC_CH02_Carcass_Ironball_Named_00: "ZUF: Workshop Union Finished Cartridge - Elite enemy drop",
+    DLC_CH02_ItemSpot33: "ZUF: Advanced Crank - near opened door",
+    DLC_CH02_ItemSpot34: "ZUF: Fire Canister - on metal platform",
+    DLC_CH02_ItemSpot35: "ZUF: Gemini's Enhanced Detection - on metal beam",
+    DLC_CH02_ItemSpot23: "ZUF: Half Moonstone - in front of pipe",
+    DLC_CH02_ItemSpot37: "ZUF: Cat Dust - in pipe",
+    DLC_CH02_ItemSpot38: "ZUF: Ancient Disk - in pipe",
+    DLC_CH02_ItemSpot45: "ZUF: Black Rabbit Hole Key - on metal platform",
+    DLC_CH02_ItemSpot39: "ZUF: Dark Moon Moonstone of the Covenant - behind destructible boxes",
+    DLC_CH02_Sheep_E01_1: "ZUF: Coolant Control Room Console Key - rest at any stargazer after Veronique (1)",
+    DLC_CH02_Sheep_E01_2: "ZUF: Blue Sheep's Mask - rest at any stargazer after Veronique= (2)",
+    DLC_CH02_Sheep_E01_3: "ZUF: Blue Sheep's Battle Apparel - rest at any stargazer after Veronique (3)",
+    DLC_CH02_ItemSpot44_1: "ZUF: The Eldest's Gas Mask - Black Rabbit Brotherhood room (1)",
+    DLC_CH02_ItemSpot44_2: "ZUF: Black Death's Protective Apparel - Black Rabbit Brotherhood room (2)",
+    DLC_CH02_ItemSpot36: "ZUF: Anti-Freeze Ampoule - pipe",
+    DLC_CH02_ItemSpot40: "ZUF: Gemini's Emergency Protection - pipe"
+}
+
+ALL_ZUF = list(ZUF_ID_TO_NAME.keys())
+
+DLC_CH02_ItemSpot03 = 904
+DLC_CH02_ItemSpot04 = 905
+DLC_CH02_ItemSpot42 = 906
+DLC_CH02_ItemSpot24 = 907
+DLC_CH02_RedButterFly_White_Illusion_00 = 908
+DLC_CH02_ItemSpot63 = 909
+DLC_CH02_ItemSpot64 = 910
+DLC_CH02_ItemSpot70 = 911
+DLC_CH02_ItemSpot65 = 912
+
+ZUFU_ID_TO_NAME = {
+    DLC_CH02_ItemSpot03: "ZUFU: Star Fragment - frozen pit",
+    DLC_CH02_ItemSpot04: "ZUFU: Shot Put - frozen pit",
+    DLC_CH02_ItemSpot42: "ZUFU: Dim Ergo Chunk - on bed",
+    DLC_CH02_ItemSpot24: "ZUFU: Legion Caliber - in safe",
+    DLC_CH02_RedButterFly_White_Illusion_00: "ZUFU: Ancient Disk - White Butterfly drop",
+    DLC_CH02_ItemSpot63: "ZUFU: Vivid Ergo Chunk - near propane tank",
+    DLC_CH02_ItemSpot64: "ZUFU: Shot Put - near shortcut door",
+    DLC_CH02_ItemSpot70: "ZUFU: News Clipping - workshop table",
+    DLC_CH02_ItemSpot65: "ZUFU: La Vendetta - chest in workshop room"
+}
+
+ALL_ZUFU = list(ZUFU_ID_TO_NAME.keys())
+
+DLC_CH02_ItemSpot68 = 895
+DLC_CH02_ItemSpot46 = 896
+DLC_CH02_Alidoro_E05 = 897
+DLC_CH02_ItemSpot72 = 898
+DLC_CH02_ItemSpot48 = 899
+DLC_CH02_ItemSpot47 = 900
+DLC_CH02_ItemSpot07 = 913
+DLC_CH02_ItemSpot49 = 914
+DLC_CH02_ItemSpot51 = 915
+DLC_CH02_ItemSpot56 = 916
+DLC_CH02_ItemSpot53 = 917
+DLC_CH02_ItemSpot59 = 918
+DLC_CH02_ItemSpot58 = 919
+DLC_CH02_Carcass_Ironball_Reward_Named_00 = 920
+DLC_CH02_ItemSpot57 = 921
+DLC_CH02_ItemSpot54 = 922
+DLC_CH02_ItemSpot55 = 923
+DLC_CH02_Carcass_TwoFacedWatcher_Seed_00_1 = 924
+DLC_CH02_Carcass_TwoFacedWatcher_Seed_00_2 = 925
+
+ERZ_ID_TO_NAME = {
+    DLC_CH02_ItemSpot68: "ERZ: Special Resistance Ampoule - metal platform",
+    DLC_CH02_ItemSpot46: "ERZ: Thermite - on table",
+    DLC_CH02_Alidoro_E05: "ERZ: Daylight-Wreathed Horn - given by Tracker",
+    DLC_CH02_ItemSpot72: "ERZ: The Order's Letter of Reprimand - on table",
+    DLC_CH02_ItemSpot48: "ERZ: Klaus's Luxury Bag - chest down stairs",
+    DLC_CH02_ItemSpot47: "ERZ: Anti-Freeze Ampoule - next to stargazer",
+    DLC_CH02_ItemSpot07: "ERZ: Motivity Crank - near boxes",
+    DLC_CH02_ItemSpot49: "ERZ: Radiant Ergo Fragment - small ramp",
+    DLC_CH02_ItemSpot51: "ERZ: Grindstone Coating Capsule - in test tube",
+    DLC_CH02_ItemSpot56: "ERZ: Fire Abrasive - before ladder down",
+    DLC_CH02_ItemSpot53: "ERZ: Crescent Moonstone - metal beam",
+    DLC_CH02_ItemSpot59: "ERZ: Miraculous Recovery Ampoule - on table",
+    DLC_CH02_ItemSpot58: "ERZ: Half Moonstone - on table",
+    DLC_CH02_Carcass_Ironball_Reward_Named_00: "ERZ: Quartz - Carcass Elite drop",
+    DLC_CH02_ItemSpot57: "ERZ: Genius Meister's Pocket Watch - safe",
+    DLC_CH02_ItemSpot54: "ERZ: Dark Moon Moonstone of the Covenant - metal beam",
+    DLC_CH02_ItemSpot55: "ERZ: Resplendent Ergo Fragment - metal platform",
+    DLC_CH02_Carcass_TwoFacedWatcher_Seed_00_1: "ERZ: Full Moonstone of the Covenent - Two Faced Overseer drop (1)",
+    DLC_CH02_Carcass_TwoFacedWatcher_Seed_00_2: "ERZ: Bloody Cipher Machine - Two Faced Overseer drop (2)"
+}
+
+ALL_ERZ = list(ERZ_ID_TO_NAME.keys())
+
+DLC_CH03_Snail_Key = 927
+DLC_CH03_ItemSpot01 = 928
+DLC_CH03_ItemSpot02 = 929
+DLC_CH03_ItemSpot04 = 930
+DLC_CH03_ItemSpot03 = 931
+DLC_CH03_ItemSpot06 = 932
+DLC_CH03_ItemSpot07 = 933
+DLC_CH03_ItemSpot08 = 934
+DLC_CH03_ItemSpot10 = 935
+DLC_CH03_ItemSpot11 = 936
+DLC_CH03_ItemSpot16 = 937
+DLC_CH03_ItemSpot13 = 938
+DLC_CH03_Puppet_Captain_Worker_NoRespawn_Elite_00 = 939
+DLC_CH03_ItemSpot14 = 940
+DLC_CH03_ItemSpot15 = 941
+DLC_CH03_ItemSpot12 = 942
+DLC_CH03_ItemSpot17 = 943
+DLC_CH03_RedButterFly_Red_00 = 944
+DLC_CH03_ItemSpot18 = 945
+DLC_CH03_ItemSpot19 = 946
+DLC_CH03_ItemSpot20 = 947
+DLC_CH03_ItemSpot21 = 948
+DLC_CH03_ItemSpot22 = 949
+DLC_CH03_ItemSpot23 = 950
+DLC_CH03_ItemSpot24 = 951
+DLC_CH03_ItemSpot40 = 952
+DLC_CH03_ItemSpot29 = 953
+DLC_CH03_ItemSpot44 = 954
+DLC_CH03_Puppet_GrandMiningMachine_New_Named_00 = 955
+DLC_CH03_ItemSpot31 = 956
+DLC_CH03_ItemSpot30 = 957
+DLC_CH03_ItemSpot27 = 958
+DLC_CH03_ItemSpot41 = 960
+DLC_CH03_Puppet_DefenseWall_NoRespawn_Elite_01 = 961
+DLC_CH03_ItemSpot35 = 962
+DLC_CH03_ItemSpot26 = 963
+DLC_CH03_ItemSpot42 = 964
+DLC_CH03_ItemSpot33 = 965
+DLC_CH03_ItemSpot09 = 966
+DLC_CH03_ItemSpot37 = 967
+DLC_CH03_ItemSpot38 = 968
+DLC_CH03_ItemSpot28 = 969
+DLC_CH03_ItemSpot32 = 970
+DLC_CH03_ItemSpot43 = 971
+DLC_CH03_ItemSpot25 = 972
+
+ARES_ID_TO_NAME = {
+    DLC_CH03_Snail_Key: "ARES: Secret Ruins Key - given by Lumacchio",
+    DLC_CH03_ItemSpot01: "ARES: Fable Catalyst - by shortcut door",
+    DLC_CH03_ItemSpot02: "ARES: Throwing Cell - on sandbag",
+    DLC_CH03_ItemSpot04: "ARES: Radiant Ergo Fragment - on sandbag",
+    DLC_CH03_ItemSpot03: "ARES: Special Purification Ampoule - near shelf",
+    DLC_CH03_ItemSpot06: "ARES: Electric Blitz Canister - cliff side",
+    DLC_CH03_ItemSpot07: "ARES: Electric Blitz Abrasive - near Crusher Puppet NPC",
+    DLC_CH03_ItemSpot08: "ARES: Vivid Ergo Chunk - behind destructible boxes",
+    DLC_CH03_ItemSpot10: "ARES: Advance Crank - mining pit",
+    DLC_CH03_ItemSpot11: "ARES: Half Moonstone - mining pit",
+    DLC_CH03_ItemSpot16: "ARES: Crescent Moonstone - by destructible boxes",
+    DLC_CH03_ItemSpot13: "ARES: Legion Magazine - by shortcut door",
+    DLC_CH03_Puppet_Captain_Worker_NoRespawn_Elite_00: "ARES: Dim Ergo Chunk - Mining Puppet Elite drop",
+    DLC_CH03_ItemSpot14: "ARES: Fable Catalyst - pit by shortcut",
+    DLC_CH03_ItemSpot15: "ARES: Genius's Legion Plug - in safe",
+    DLC_CH03_ItemSpot12: "ARES: Hymn og the Zealots - up ladder",
+    DLC_CH03_ItemSpot17: "ARES: Miraculous Enhancement Ampoule - up ladder after drop off",
+    DLC_CH03_RedButterFly_Red_00: "ARES: Full Moonstone of the Covenant - Red Butterfly drop",
+    DLC_CH03_ItemSpot18: "ARES: Attribute Purification Ampoule - minecart",
+    DLC_CH03_ItemSpot19: "ARES: Ancient Disk - chest in mine",
+    DLC_CH03_ItemSpot20: "ARES: Sawtoothed Wheel - next to Crusher Puppet NPC",
+    DLC_CH03_ItemSpot21: "ARES: Grindstone Coating Capsule - opening in rocks",
+    DLC_CH03_ItemSpot22: "ARES: Anti-Freeze Ampoule - above stargazer",
+    DLC_CH03_ItemSpot23: "ARES: Arche's Guardian - chest on wood ledge",
+    DLC_CH03_ItemSpot24: "ARES: Legion Magazine - ledge before bridge",
+    DLC_CH03_ItemSpot40: "ARES: Krat Mysteries: The Spider Cave Puppet - before ladder",
+    DLC_CH03_ItemSpot29: "ARES: Shot Put - drop off from elevator",
+    DLC_CH03_ItemSpot44: "ARES: Quartz - Premetamorphic Green Hunter drop",
+    DLC_CH03_Puppet_GrandMiningMachine_New_Named_00: "ARES: Corroded Cipher Machine - Mining Puppet Elite drop",
+    DLC_CH03_ItemSpot31: "ARES: Fable Catalyst - mines pit",
+    DLC_CH03_ItemSpot30: "ARES: Vivid Ergo Chunk - mines pit",
+    DLC_CH03_ItemSpot27: "ARES: Special Resistance Ampoule - mines pit",
+    DLC_CH03_ItemSpot41: "ARES: Dim Ergo Chunk - before ladder",
+    DLC_CH03_Puppet_DefenseWall_NoRespawn_Elite_01: "ARES: Legion Caliber - Shield Puppet Elite Enemy drop",
+    DLC_CH03_ItemSpot35: "ARES: Cluster Grenade - submarine platform",
+    DLC_CH03_ItemSpot26: "ARES: Attribute Resistance Ampoule - behind destructible boxes",
+    DLC_CH03_ItemSpot42: "ARES: Thermite - near Brain in a Vat NPC",
+    DLC_CH03_ItemSpot33: "ARES: Legion Magazine - Near Brain in a Vat NPC",
+    DLC_CH03_ItemSpot09: "ARES: Dark Moon Moonstone of the Covenant - pipe",
+    DLC_CH03_ItemSpot37: "ARES: Storyteller's Amulet - down ladder in pipe",
+    DLC_CH03_ItemSpot38: "ARES: Black Rabbit Hole Key - submarine platform",
+    DLC_CH03_ItemSpot28: "ARES: Workshop Union Composite Armor Liner - chest above submarine",
+    DLC_CH03_ItemSpot32: "ARES: Star Fragment - near carving in wall",
+    DLC_CH03_ItemSpot43: "ARES: Rulebook for the Ruins' Deepest Site - 8th ed. - near boss door",
+    DLC_CH03_ItemSpot25: "ARES: Routine Tram Operations Report - on tram"
+}
+
+ALL_ARES = list(ARES_ID_TO_NAME.keys())
+
+DLC_CH03_Carcass_LegacyGuardian_Boss_00 = 973
+DLC_CH03_ItemSpot34 = 974
+
+SR_ID_TO_NAME = {
+    DLC_CH03_Carcass_LegacyGuardian_Boss_00: "SR: Tortured Guardian's Ergo - Anguished Guardian of the Ruins drop",
+    DLC_CH03_ItemSpot34: "SR: Forbidden Book: The Wish-Granter - on barrel"
+}
+
+ALL_SR = list(SR_ID_TO_NAME.keys())
+
+DLC_CH04_ItemSpot02 = 975
+DLC_CH04_ItemSpot120_1 = 976
+DLC_CH04_ItemSpot120_2 = 977
+DLC_CH04_ItemSpot120_3 = 978
+DLC_CH04_ItemSpot120_4 = 979
+DLC_CH04_ItemSpot120_5 = 980
+DLC_CH04_ItemSpot10 = 981
+
+AEC_ID_TO_NAME = {
+    DLC_CH04_ItemSpot02: "AEC: Lea's Note - campsite",
+    DLC_CH04_ItemSpot120_1: "AEC: Fire Abrasive - campsite chest (1)",
+    DLC_CH04_ItemSpot120_2: "AEC: Legion Magazine - campsite chest (2)",
+    DLC_CH04_ItemSpot120_3: "AEC: Cat Dust - campsite chest (3)",
+    DLC_CH04_ItemSpot120_4: "AEC: Attribute Purification Ampoule - campsite chest (4)",
+    DLC_CH04_ItemSpot120_5: "AEC: Star Fragment - campsite chest (5)",
+    DLC_CH04_ItemSpot10: "AEC: A Request to a Friend - campsite table"
+}
+
+ALL_AEC = list(AEC_ID_TO_NAME.keys())
+
+DLC_CH04_ItemSpot106 = 984
+DLC_CH04_ItemSpot22 = 985
+DLC_CH04_ItemSpot21 = 986
+DLC_CH04_Puppet_Captain_Worker_NoRespawn_Elite_00 = 987
+DLC_CH04_ItemSpot107 = 988
+DLC_CH04_ItemSpot109 = 989
+DLC_CH04_ItemSpot27 = 990
+DLC_CH04_ItemSpot28 = 991
+DLC_CH04_ItemSpot118 = 992
+DLC_CH04_ItemSpot07 = 993
+DLC_CH04_ItemSpot30 = 994
+DLC_CH04_ItemSpot31 = 995
+DLC_CH04_ItemSpot16 = 996
+DLC_CH04_ItemSpot34 = 997
+DLC_CH04_ItemSpot36 = 998
+DLC_CH04_Carcass_ManEater_Named_00 = 999
+DLC_CH04_ItemSpot37 = 1000
+DLC_CH04_ItemSpot35 = 1001
+DLC_CH04_Carcass_GeneralMale4_Normal_00_QST = 1002
+DLC_CH04_ItemSpot40 = 1003
+DLC_CH04_ItemSpot39 = 1004
+DLC_CH04_ItemSpot33 = 1005
+DLC_CH04_ItemSpot70 = 1006
+DLC_CH04_ItemSpot42 = 1007
+DLC_CH04_ItemSpot20 = 1008
+DLC_CH04_Stalker_Lumacchio_01_1 = 1009
+DLC_CH04_Stalker_Lumacchio_01_2 = 1010
+DLC_CH04_ItemSpot44 = 1012
+DLC_CH04_ItemSpot43 = 1013
+DLC_CH04_ItemSpot78 = 1014
+DLC_CH04_ItemSpot79 = 1015
+DLC_CH04_ItemSpot45 = 1016
+DLC_CH04_ItemSpot46_1 = 1017
+DLC_CH04_ItemSpot46_2 = 1018
+DLC_CH04_ItemSpot46_3 = 1019
+DLC_CH04_ItemSpot47 = 1020
+DLC_CH04_ItemSpot48 = 1021
+DLC_CH04_ItemSpot49 = 1022
+DLC_CH04_ItemSpot59 = 1023
+DLC_CH04_ItemSpot50 = 1024
+DLC_CH04_RedButterFly_White_Illusion_00 = 1025
+DLC_CH04_ItemSpot80 = 1026
+DLC_CH04_ItemSpot81 = 1027
+DLC_CH04_ItemSpot82 = 1028
+DLC_CH04_ItemSpot83 = 1029
+DLC_CH04_ItemSpot51 = 1030
+DLC_CH04_ItemSpot53 = 1031
+DLC_CH04_ItemSpot77 = 1032
+DLC_CH04_ItemSpot111 = 1033
+DLC_CH04_ItemSpot117 = 1034
+DLC_CH04_ItemSpot11 = 1035
+DLC_CH04_ItemSpot08 = 1036
+DLC_CH04_ItemSpot110 = 1037
+DLC_CH04_ItemSpot52 = 1038
+DLC_CH04_ItemSpot54 = 1039
+DLC_CH04_ItemSpot76 = 1040
+DLC_CH04_ItemSpot57 = 1041
+DLC_CH04_ItemSpot56 = 1042
+DLC_CH04_ItemSpot55 = 1043
+DLC_CH04_ItemSpot14 = 1044
+DLC_CH04_ItemSpot15 = 1045
+DLC_CH04_ItemSpot84 = 1046
+DLC_CH04_ItemSpot119 = 1047
+DLC_CH04_ItemSpot121 = 1048
+DLC_CH04_ItemSpot63 = 1051
+DLC_CH04_ItemSpot64 = 1052
+DLC_CH04_ItemSpot65 = 1053
+DLC_CH04_ItemSpot66 = 1054
+DLC_CH04_ItemSpot62_1 = 1055
+DLC_CH04_ItemSpot62_2 = 1056
+DLC_CH04_Carcass_Shark_Named_00 = 1058
+DLC_CH04_ItemSpot18 = 1059
+DLC_CH04_ItemSpot75 = 1060
+DLC_CH04_ItemSpot105 = 1061
+DLC_CH04_ItemSpot13 = 1062
+DLC_CH04_ItemSpot23 = 1105
+DLC_CH04_ItemSpot29 = 1106
+
+SC_ID_TO_NAME = {
+    DLC_CH04_ItemSpot106: "SC: Electric Blitz Abrasive - on multiple drops off cliff",
+    DLC_CH04_ItemSpot22: "SC: Fable Catalyst - open room",
+    DLC_CH04_ItemSpot21: "SC: Ancient Disk - upper chest",
+    DLC_CH04_Puppet_Captain_Worker_NoRespawn_Elite_00: "SC: Vivid Ergo Chunk - Mining Puppet Elite drop",
+    DLC_CH04_ItemSpot107: "AFS: Attribute Purification Ampoule - wagon before boat",
+    DLC_CH04_ItemSpot109: "AFS: Advance Crank - large pole in first boat",
+    DLC_CH04_ItemSpot27: "AFS: Fable Catalyst - in first boat",
+    DLC_CH04_ItemSpot28: "AFS: Acid Abrasive - small room in first boat",
+    DLC_CH04_ItemSpot118: "AFS: A Letter to Family -  table in first boat",
+    DLC_CH04_ItemSpot07: "AFS: Legion Magazine - first boat",
+    DLC_CH04_ItemSpot30: "AFS: Dim Ergo Chunk - small room in lower region of first boat",
+    DLC_CH04_ItemSpot31: "AFS: Gemini's Iron Protection - by destructible boxes",
+    DLC_CH04_ItemSpot16: "AFS: Correspondence from Beyond the Sea - ladder of second boat",
+    DLC_CH04_ItemSpot34: "AFS: Fire Abrasive - top of second boat",
+    DLC_CH04_ItemSpot36: "AFS: Legion Caliber - chest in cave",
+    DLC_CH04_Carcass_ManEater_Named_00: "AFS: Full Moonstone - Carcass Elite Enemy drop",
+    DLC_CH04_ItemSpot37: "AFS: Resplendent Ergo Chunk - in cave",
+    DLC_CH04_ItemSpot35: "AFS: Anti-Freeze Ampoule - in cave",
+    DLC_CH04_Carcass_GeneralMale4_Normal_00_QST: "AFS: Puppet Prince's Imperial Crown - Carcass Enemy drop",
+    DLC_CH04_ItemSpot40: "AFS: Fable Catalyst - destructible barrel cave exit",
+    DLC_CH04_ItemSpot39: "AFS: Miraculous Enhancement Ampoule - drop down on cliff cave exit",
+    DLC_CH04_ItemSpot33: "AFS: Crescent Moonstone - bottom of second boat",
+    DLC_CH04_ItemSpot70: "AFS: Frosted Cipher Machine - safe on ice",
+    DLC_CH04_ItemSpot42: "AFS: Attribute Resistance Ampoule - wood beam",
+    DLC_CH04_ItemSpot20: "AFS: Radiant Ergo Fragment - near Fisherman NPC",
+    DLC_CH04_Stalker_Lumacchio_01_1: "AFS: Golden Snail's Mask - Lumacchio Leader of the Bastards drop (1)",
+    DLC_CH04_Stalker_Lumacchio_01_2: "AFS: Golden Snail's Tailcoat - Lumacchio Leader of the Bastards drop (2)",
+    DLC_CH04_ItemSpot44: "AFS: Legion Magazine - third boat after boss",
+    DLC_CH04_ItemSpot43: "AFS: Dark Moon Moonstone of the Covenant - third boat after boss",
+    DLC_CH04_ItemSpot78: "AFS: Sharp Pipe - third boat after boss",
+    DLC_CH04_ItemSpot79: "AFS: Thermite - third boat after boss",
+    DLC_CH04_ItemSpot45: "AFS: Gemini's Emergency Protection - third boat after boss",
+    DLC_CH04_ItemSpot46_1: "AFS: Grindstone Coating Capsule - chest in third boat (1)",
+    DLC_CH04_ItemSpot46_2: "AFS: Miraculous Enhancement Ampoule - chest third boat (2)",
+    DLC_CH04_ItemSpot46_3: "AFS: Madman's Journal - chest third boat (3)",
+    DLC_CH04_ItemSpot47: "AFS: Fable Catlyst - destructible boxes third boat exit",
+    DLC_CH04_ItemSpot48: "AFS: Special Resistance Ampoule - near destructible wagon on ice",
+    DLC_CH04_ItemSpot49: "AFS: Vivid Ergo Chunk - after destructible wagon by some debris",
+    DLC_CH04_ItemSpot75: "AFS: Half Moonstone - destructible boxes on ice with lighthouse in view",
+    DLC_CH04_ItemSpot50: "AFS: Chain - behind rock with cannons",
+    DLC_CH04_RedButterFly_White_Illusion_00: "AFS: Ancient Disk - White Butterfly drop",
+    DLC_CH04_ItemSpot80: "AFS: Gemini's Enhanced Detection - rock on ice before final boat",
+    DLC_CH04_ItemSpot81: "AFS: Cluster Grenade - path to final boat",
+    DLC_CH04_ItemSpot82: "AFS: Legion Magazine - path to final boat",
+    DLC_CH04_ItemSpot83: "AFS: Resplendent Ergo Chunk - on ice",
+    DLC_CH04_ItemSpot51: "AFS: Balance Crank - bottom of final boat",
+    DLC_CH04_ItemSpot53: "AFS: WANTED by the Order: Alidoro - ladder of final boat",
+    DLC_CH04_ItemSpot77: "AFS: Fable Catalyst - final boat dropdown shipwreck",
+    DLC_CH04_ItemSpot111: "AFS: Dark Moon Moonstone of the Covenant - bow of final ship",
+    DLC_CH04_ItemSpot117: "AFS: Klaus's Premium Luxury Bag - safe in final ship",
+    DLC_CH04_ItemSpot11: "AFS: Alchemist's Orders - cells in final boat",
+    DLC_CH04_ItemSpot08: "AFS: Mad Puppet's Message - cell in final boat",
+    DLC_CH04_ItemSpot110: "AFS: Venigni's Urgent Repair Tool - top of final boat",
+    DLC_CH04_ItemSpot52: "AFS: Acid Canister - top of final boat",
+    DLC_CH04_ItemSpot54: "AFS: Hidden Moonstone - top of final boat",
+    DLC_CH04_ItemSpot76: "AFS: Shot Put - top of final boat",
+    DLC_CH04_ItemSpot57: "AFS: Silent Evangelists' Mace - chest at top of  final boat",
+    DLC_CH04_ItemSpot56: "AFS: List of Sent Items - shelf in final boat",
+    DLC_CH04_ItemSpot55: "AFS: Broadbay 30 Year - chest bottom of final boat",
+    DLC_CH04_ItemSpot14: "KL: Resplendent Ergo Fragment - on dock",
+    DLC_CH04_ItemSpot15: "KL: Legion Magazine - small hut on dock",
+    DLC_CH04_ItemSpot84: "KL: Ancient Disk - ice connected to dock",
+    DLC_CH04_ItemSpot119: "KL: Mayor's Journal - corpse in front of lighthouse",
+    DLC_CH04_ItemSpot121: "KL: Krat Mysteries: The Haunted Lighthouse - outside lighthouse",
+    DLC_CH04_ItemSpot63: "KL: Special Purification Ampoule - in lighthouse",
+    DLC_CH04_ItemSpot64: "KL: Crescent Moonstone - in lighthouse",
+    DLC_CH04_ItemSpot65: "KL: Cat Dust - lighthouse dropdown",
+    DLC_CH04_ItemSpot66: "KL: Motivity Crank - by Black Rabbit Brotherhood room",
+    DLC_CH04_ItemSpot62_1: "KL: The Battle Maniac's Mask - Black Rabbit Brotherhood room (1)",
+    DLC_CH04_ItemSpot62_2: "KL: Blazing Death's Hunting Apparel - Black Rabbit Brotherhood room (2)",
+    DLC_CH04_Carcass_Shark_Named_00: "KL: Full Moonstone - Carcass Fish Elite drop",
+    DLC_CH04_ItemSpot18: "KL: Resplendent Ergo Chunk - near Carcass Fish Elite",
+    DLC_CH04_ItemSpot59: "KL: Half Moonstone - near barrels",
+    DLC_CH04_ItemSpot105: "KL: Old Fisherman's Letter - in fishing hut",
+    DLC_CH04_ItemSpot13: "KL: Lea's Will - in shack where you meet Lea",
+    DLC_CH04_ItemSpot23: "KL: Dim Ergo Chunk - ledge above elite enemy",
+    DLC_CH04_ItemSpot29: "ASF: Legion Magazine - rope in first boat"
+}
+
+ALL_SC = list(SC_ID_TO_NAME.keys())
+
+DLC_CH04_ItemSpot68 = 1063
+DLC_CH04_ItemSpot69 = 1064
+DLC_CH04_ItemSpot71 = 1065
+DLC_CH04_ItemSpot73 = 1066
+DLC_CH04_ItemSpot72 = 1067
+DLC_CH04_Carcass_ManEater_Lea_Named_00 = 1068
+
+PFC_ID_TO_NAME = {
+    DLC_CH04_ItemSpot68: "PFC: Fable Catlyst - by destructible boxes",
+    DLC_CH04_ItemSpot69: "PFC: Shepherd's Amulet - chest behind icicle",
+    DLC_CH04_ItemSpot71: "PFC: Grindstone Coating Capsule - open room",
+    DLC_CH04_ItemSpot73: "PFC: Radiant Ergo Chunk - open room",
+    DLC_CH04_ItemSpot72: "PFC: Miraculous Recovery Ampoule - before bridge to Rose Estate",
+    DLC_CH04_Carcass_ManEater_Lea_Named_00: "PFC: Solutionist's Amulet - Carcass Elite on bridge"
+}
+
+ALL_PFC = list(PFC_ID_TO_NAME.keys())
+
+DLC_CH05_ItemSpot42_1 = 1069
+DLC_CH05_ItemSpot42_2 = 1070
+DLC_CH05_ItemSpot34 = 1071
+DLC_CH05_ItemSpot06 = 1072
+DLC_CH05_ItemSpot07 = 1073
+DLC_CH05_ItemSpot10 = 1074
+DLC_CH05_ItemSpot43 =1075
+DLC_CH05_ItemSpot11 =1076
+DLC_CH05_ItemSpot12 =1077
+DLC_CH05_ItemSpot13 = 1078
+DLC_CH05_ItemSpot14 = 1079
+DLC_CH05_ItemSpot01 = 1080
+DLC_CH05_ItemSpot16 = 1081
+DLC_CH05_ItemSpot15 = 1082
+DLC_CH05_ItemSpot09 = 1083
+DLC_CH05_Puppet_Police_NoRespawn_Elite_01 = 1084
+DLC_CH05_ItemSpot02 = 1085
+DLC_CH05_ItemSpot05 = 1086
+DLC_CH05_ItemSpot18 = 1087
+DLC_CH05_ItemSpot17 = 1088
+DLC_CH05_ItemSpot03 = 1089
+DLC_CH05_ItemSpot19 = 1090
+DLC_CH05_ItemSpot22 = 1091
+DLC_CH05_ItemSpot20 = 1092
+DLC_CH05_ItemSpot21 = 1093
+DLC_CH05_ItemSpot24 = 1094
+DLC_CH05_ItemSpot23 = 1095
+DLC_CH05_ItemSpot25 = 1096
+DLC_CH05_Carcass_CarcassSM_NoRespawn_Elite_01_1 = 1097
+DLC_CH05_Carcass_CarcassSM_NoRespawn_Elite_01_2 = 1098
+
+RE_ID_TO_NAME = {
+    DLC_CH05_ItemSpot42_1: "RE: Romeo's Letter - under Romeo's hands (1)",
+    DLC_CH05_ItemSpot42_2: "RE: Blood-Spattered Photo - under Romeo's hands (2)",
+    DLC_CH05_ItemSpot34: "RE: On the Potential of the Murderer Puppet - on couch",
+    DLC_CH05_ItemSpot06: "RE: A Petition to the Order - on table",
+    DLC_CH05_ItemSpot07: "RE: A Family's Happy Memory - Sophia's room",
+    DLC_CH05_ItemSpot10: "RE: Sophia's Diary - on piano",
+    DLC_CH05_ItemSpot43: "RE: Another Letter from an Old Friend (Undelivered) - small chair downstairs",
+    DLC_CH05_ItemSpot11: "RE: Legion Magazine - open room",
+    DLC_CH05_ItemSpot12: "RE: Radiant Ergo Chunk - open room",
+    DLC_CH05_ItemSpot13: "RE: Special Purification Ampoule - in kitchen",
+    DLC_CH05_ItemSpot14: "RE: Thermite - near cellar stargazer",
+    DLC_CH05_ItemSpot01: "RE: Frenzied Amulet - chest in cellar",
+    DLC_CH05_ItemSpot16: "RE: Radiant Ergo Chunk - corner of room",
+    DLC_CH05_ItemSpot15: "RE: Special Purification Ampoule - bottom of cellar",
+    DLC_CH05_ItemSpot09: "RE: Edict: Purification for the Great Truth - up ladder from bottom of cellar",
+    DLC_CH05_Puppet_Police_NoRespawn_Elite_01: "RE: Accusation Against Simon - Puppet Elite drop",
+    DLC_CH05_ItemSpot02: "RE: Quartz - bottom of Rose Estate near railway",
+    DLC_CH05_ItemSpot05: "RE: Letter to Valentinus - safe in bedroom",
+    DLC_CH05_ItemSpot18: "RE: Great Master's Letter of Excommunication - table behind hidden room",
+    DLC_CH05_ItemSpot17: "RE: Technique Crank - lower level of library",
+    DLC_CH05_ItemSpot03: "RE: Courage Amulet - behind bookshelf",
+    DLC_CH05_ItemSpot19: "RE: Miraculous Recovery Ampoule - behind bookshelf",
+    DLC_CH05_ItemSpot22: "RE: Electric Blitz Abrasive - lower level of library",
+    DLC_CH05_ItemSpot20: "RE: Special Resistance Ampoule - lower level of library",
+    DLC_CH05_ItemSpot21: "RE: Resplendent Ergo Chunk - couch above library",
+    DLC_CH05_ItemSpot24: "RE: Shot Put - down ladder in library",
+    DLC_CH05_ItemSpot23: "RE: Miraculous Enhancement Ampoule - jump across bookshelf",
+    DLC_CH05_ItemSpot25: "RE: Dim Ergo Chunk - upper level of library",
+    DLC_CH05_Carcass_CarcassSM_NoRespawn_Elite_01_1: "RE: Quartz - Carcass Elite enemy drop (1)",
+    DLC_CH05_Carcass_CarcassSM_NoRespawn_Elite_01_2: "RE: Rose Garden Key - Carcass Elite enemy drop (2)"
+}
+
+ALL_RE = list(RE_ID_TO_NAME.keys())
+
+DLC_CH05_Puppet_ArlecchinoP2_Boss_00_1 = 1099
+DLC_CH05_Puppet_ArlecchinoP2_Boss_00_2 = 1100
+DLC_CH05_Puppet_ArlecchinoP2_Boss_00_3 = 1101
+DLC_CH05_Puppet_ArlecchinoP2_Boss_00_4 = 1102
+
+RG_ID_TO_NAME = {
+    DLC_CH05_Puppet_ArlecchinoP2_Boss_00_1: "RG: Secret Room Key - Arlecchino drop (1)",
+    DLC_CH05_Puppet_ArlecchinoP2_Boss_00_2: "RG: Leader's Mask - Arlecchino drop (2)",
+    DLC_CH05_Puppet_ArlecchinoP2_Boss_00_3: "RG: Leader's Battle Apparel - Arlecchino drop (3)",
+    DLC_CH05_Puppet_ArlecchinoP2_Boss_00_4: "RG: Monad's Rose Sword - Arlecchino drop (4)"
+}
+
+ALL_RG = list(RG_ID_TO_NAME.keys())
