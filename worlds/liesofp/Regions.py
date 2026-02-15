@@ -566,7 +566,9 @@ def create_regions(world, options: LiesOfPOptions):
                                                     and state.has(PORGAN_MATERIALS_ID_TO_NAME[MAT_PORGAN], world.player, 18)
                                                     and weapon_level(state, world.player,10))
 
-    connect(world.player, "AAP-to-AACG", regions["Arche Abbey Passageway"], regions["Arche Abbey Cradle of the God"])
+    key_item_name = KEY_ID_TO_NAME[TCO_TRI_KEY]
+    connect(world.player, "AAP-to-AACG", regions["Arche Abbey Passageway"], regions["Arche Abbey Cradle of the God"],
+            lambda state, ki=key_item_name: state.has(ki, world.player))
 
     connect(world.player, "AACG-to-UTA", regions["Arche Abbey Cradle of the God"], regions["Under the Abyss"])
 

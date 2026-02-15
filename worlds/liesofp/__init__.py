@@ -8,7 +8,7 @@ from .ItemLists.Useables import ALL_ERGO, All_THROW, All_CONSUME, ERGO_ID_TO_NAM
 from .Groups import item_name_groups, location_name_groups
 
 from .Options import LiesOfPOptions
-from .Items import LiesOfPItem
+from .Items import LiesOfPItem, is_progression
 from . import Locations, Regions, Rules
 
 
@@ -57,6 +57,10 @@ class LiesOfPWorld(World):
 
         item_id = self.item_name_to_id[name]
         item_class = ItemClass.filler
+
+        if is_progression(item_id):
+            item_class = ItemClass.progression
+
         return LiesOfPItem(name, item_class, item_id, self.player)
 
     def create_items(self) -> None:
@@ -120,8 +124,9 @@ class LiesOfPWorld(World):
     def check_dlc_start_inventory(self):
         start_inventory = self.multiworld.precollected_items[self.player]
 
-        for item in start_inventory:
-            if item.code > 2000:  # Lowest DLC Item ID
-                print("DLC ITEM DETECTED")
-                self.dlc_required = True
-                return
+        if not self.dlc_required:
+            for item in start_inventory:
+                if item.code > 2000:  # Lowest DLC Item ID
+                    print("DLC ITEM DETECTED")
+                    self.dlc_required = True
+                    return

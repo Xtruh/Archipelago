@@ -1951,7 +1951,12 @@ def add_dlc_items(world: World, options: LiesOfPOptions):
 
 
 def add_filler(world, options, filler):
-    if options.goal.value == options.goal.option_arlecchino or options.goal.option_arlecchino_short:
+    if (
+            (options.goal.value == options.goal.option_arlecchino) or
+            (options.goal.value == options.goal.option_arlecchino) or
+            (options.goal.value == options.goal.option_simon_manus_and_arlecchino) or
+            (options.goal.value == options.goal.option_nameless_puppet_and_arlecchino)
+        ):
         dlc_filler(world, options, filler)
     elif options.dlc.value == options.dlc.option_enable:
         dlc_filler(world, options, filler)
@@ -2008,3 +2013,13 @@ def non_dlc_filler(world: World, options: LiesOfPOptions, filler):
                 consume_id = world.random.choice(All_CONSUME)
                 item = (LiesOfPItem(CONSUME_ID_TO_NAME[consume_id], ItemClass.filler, consume_id, world.player))
                 world.multiworld.itempool.append(item)
+
+
+def is_progression(id):
+    return (
+            (id in KEY_ID_TO_NAME) or (id in DLC_KEYS_ID_TO_NAME) or (id in NORMAL_WPN_ID_TO_NAME) or
+            (id in SPECIAL_WPN_ID_TO_NAME) or (id in DLC_WPN_ID_TO_NAME) or (id in DLC_SPECIAL_WPN_ID_TO_NAME) or
+            (id in WEAPON_MATERIALS_ID_TO_NAME) or (id in WEAPON_MATERIALS_ID_TO_NAME) or
+            (id in PORGAN_MATERIALS_ID_TO_NAME) or (id in DLC_FUNC_ID_TO_NAME) or (id in FUNC_ID_TO_NAME) or
+            (id in GRIND_ID_TO_NAME)
+    )
