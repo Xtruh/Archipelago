@@ -246,8 +246,7 @@ def full_item_pool(world: World, options: LiesOfPOptions):
             item_count += 1
 
         item_count += add_dlc_items(world, options)
-
-    if options.dlc_items.value == options.dlc_items.option_enable:
+    elif options.dlc_items.value == options.dlc_items.option_enable:
 
         item_count += add_dlc_items(world, options)
 
@@ -788,20 +787,7 @@ def king_of_puppets_item_pool(world: World, options: LiesOfPOptions):
 
                 world.multiworld.itempool.append(dlc_boss_amulet_item)
                 item_count += 1
-
-    if options.dlc_items.value == options.dlc_items.option_enable:
-        grind = LiesOfPItem(DLC_GRIND_ID_TO_NAME[DLC_GRIND_BROKEN_PIERCE], ItemClass.useful, DLC_GRIND_BROKEN_PIERCE,
-                            world.player)
-
-        world.multiworld.itempool.append(grind)
-        item_count += 1
-
-        grind = LiesOfPItem(DLC_GRIND_ID_TO_NAME[DLC_GRIND_BROKEN_CUTTING], ItemClass.useful, DLC_GRIND_BROKEN_CUTTING,
-                            world.player)
-
-        world.multiworld.itempool.append(grind)
-        item_count += 1
-
+    elif options.dlc_items.value == options.dlc_items.option_enable:
         for brb_outfitId in ALL_BRB_OUTFIT:
             outfit_item = LiesOfPItem(BRB_OUTFIT_ID_TO_NAME[brb_outfitId], ItemClass.progression, brb_outfitId,
                                       world.player)
@@ -1951,12 +1937,7 @@ def add_dlc_items(world: World, options: LiesOfPOptions):
 
 
 def add_filler(world, options, filler):
-    if (
-            (options.goal.value == options.goal.option_arlecchino) or
-            (options.goal.value == options.goal.option_arlecchino) or
-            (options.goal.value == options.goal.option_simon_manus_and_arlecchino) or
-            (options.goal.value == options.goal.option_nameless_puppet_and_arlecchino)
-        ):
+    if options.goal.value == options.goal.option_arlecchino or options.goal.option_arlecchino_short:
         dlc_filler(world, options, filler)
     elif options.dlc.value == options.dlc.option_enable:
         dlc_filler(world, options, filler)
