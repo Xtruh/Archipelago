@@ -1937,11 +1937,17 @@ def add_dlc_items(world: World, options: LiesOfPOptions):
 
 
 def add_filler(world, options, filler):
-    if options.goal.value == options.goal.option_arlecchino or options.goal.option_arlecchino_short:
-        dlc_filler(world, options, filler)
-    elif options.dlc.value == options.dlc.option_enable:
-        dlc_filler(world, options, filler)
-    elif options.dlc_items.value == options.dlc_items.option_enable:
+    arlecchino_goals = {
+        options.goal.option_arlecchino,
+        options.goal.option_simon_manus_and_arlecchino,
+        options.goal.option_nameless_puppet_and_arlecchino
+    }
+
+    is_arlecchino_goal = options.goal.value in arlecchino_goals
+    is_dlc_enabled = options.dlc.value == options.dlc.option_enable
+    is_dlc_items_enabled = options.dlc_items.value == options.dlc_items.option_enable
+
+    if is_arlecchino_goal or is_dlc_enabled or is_dlc_items_enabled:
         dlc_filler(world, options, filler)
     else:
         non_dlc_filler(world, options, filler)
