@@ -2031,8 +2031,6 @@ DLC_CH02_ItemSpot37 = 888
 DLC_CH02_ItemSpot38 = 889
 DLC_CH02_ItemSpot45 = 890
 DLC_CH02_ItemSpot39 = 891
-DLC_CH02_Sheep_E01_1 = 892
-DLC_CH02_Sheep_E01_2 = 893
 DLC_CH02_Sheep_E01_3 = 894
 DLC_CH02_ItemSpot44_1 = 901
 DLC_CH02_ItemSpot44_2 = 902
@@ -2075,8 +2073,6 @@ ZUF_ID_TO_NAME = {
     DLC_CH02_ItemSpot38: "ZUF: Ancient Disk - in pipe",
     DLC_CH02_ItemSpot45: "ZUF: Black Rabbit Hole Key - on metal platform",
     DLC_CH02_ItemSpot39: "ZUF: Dark Moon Moonstone of the Covenant - behind destructible boxes",
-    DLC_CH02_Sheep_E01_1: "ZUF: Coolant Control Room Console Key - rest at any stargazer after Veronique (1)",
-    DLC_CH02_Sheep_E01_2: "ZUF: Blue Sheep's Mask - rest at any stargazer after Veronique= (2)",
     DLC_CH02_Sheep_E01_3: "ZUF: Blue Sheep's Battle Apparel - rest at any stargazer after Veronique (3)",
     DLC_CH02_ItemSpot44_1: "ZUF: The Eldest's Gas Mask - Black Rabbit Brotherhood room (1)",
     DLC_CH02_ItemSpot44_2: "ZUF: Black Death's Protective Apparel - Black Rabbit Brotherhood room (2)",
@@ -2110,6 +2106,8 @@ ZUFU_ID_TO_NAME = {
 
 ALL_ZUFU = list(ZUFU_ID_TO_NAME.keys())
 
+DLC_CH02_Sheep_E01_1 = 892
+DLC_CH02_Sheep_E01_2 = 893
 DLC_CH02_ItemSpot68 = 895
 DLC_CH02_ItemSpot46 = 896
 DLC_CH02_Alidoro_E05 = 897
@@ -2131,6 +2129,8 @@ DLC_CH02_Carcass_TwoFacedWatcher_Seed_00_1 = 924
 DLC_CH02_Carcass_TwoFacedWatcher_Seed_00_2 = 925
 
 ERZ_ID_TO_NAME = {
+    DLC_CH02_Sheep_E01_1: "ZUF: Coolant Control Room Console Key - rest at any stargazer after Veronique (1)",
+    DLC_CH02_Sheep_E01_2: "ZUF: Blue Sheep's Mask - rest at any stargazer after Veronique= (2)",
     DLC_CH02_ItemSpot68: "ERZ: Special Resistance Ampoule - metal platform",
     DLC_CH02_ItemSpot46: "ERZ: Thermite - on table",
     DLC_CH02_Alidoro_E05: "ERZ: Daylight-Wreathed Horn - given by Tracker",
@@ -2435,7 +2435,7 @@ SC_ID_TO_NAME = {
     DLC_CH04_ItemSpot105: "KL: Old Fisherman's Letter - in fishing hut",
     DLC_CH04_ItemSpot13: "KL: Lea's Will - in shack where you meet Lea",
     DLC_CH04_ItemSpot23: "KL: Dim Ergo Chunk - ledge above elite enemy",
-    DLC_CH04_ItemSpot29: "ASF: Legion Magazine - rope in first boat"
+    DLC_CH04_ItemSpot29: "AFS: Legion Magazine - rope in first boat"
 }
 
 ALL_SC = list(SC_ID_TO_NAME.keys())
